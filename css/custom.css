@@ -1,0 +1,189 @@
+    /*---------------------------------------
+ *                                      *
+ *       Add Your Custom CSS Here       *
+ *                                      *
+ ---------------------------------------*/
+    
+    #header-holder.main-header #top-content .big-title span {
+        color: #ed9000;
+    }
+    
+    #header-holder.main-header #top-content p {
+        font-weight: 500;
+    }
+    
+    .logo-holder .logo {
+        background-image: url(../images/logo.png);
+        height: 50px !important;
+        width: 255px !important;
+        padding-bottom: 70px;
+    }
+    
+    #features .bg-color {
+        background-color: #eaeff9;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        -webkit-transform: skewY(-10deg) scaleY(0.7);
+        -moz-transform: skewY(-10deg) scaleY(0.7);
+        -ms-transform: skewY(-10deg) scaleY(0.7);
+        transform: skewY(-10deg) scaleY(0.7);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        z-index: -1;
+    }
+    
+    #apps .apps-holder .app-details div[class^="app-details"] .app-link a {
+        font-size: 12px;
+        margin: 0;
+        padding: 12px 20px;
+    }
+    
+    #info .info-text {
+        line-height: 1.75;
+    }
+    
+    .info-details-holder .info-details {
+        top: 40px;
+    }
+    
+    .pricing-box.pricing-unity .pricing-content .pricing-link a {
+        font-size: 14px;
+    }
+    
+    #team {
+        padding: 0;
+    }
+    
+    #team .person-box .person-name {
+        margin-bottom: 15px;
+    }
+    
+    .ybtn {
+        border: 2px solid transparent !important;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 700 !important;
+        letter-spacing: 1.5px;
+        margin: 15px 0;
+        padding: 15px 20px;
+    }
+    
+    .ybtn:not(:last-child) {
+        margin-right: 15px;
+    }
+    
+    .ybtn-accent-color {
+        background: #ed9000 !important;
+        border-color: #ed9000 !important;
+    }
+    
+    #pricing .bg-color {
+        background-color: #eaeff9;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        -webkit-transform: skewY(-10deg) scaleY(0.7);
+        -moz-transform: skewY(-10deg) scaleY(0.7);
+        -ms-transform: skewY(-10deg) scaleY(0.7);
+        transform: skewY(-10deg) scaleY(0.7);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
+        -ms-transform-origin: center center;
+        transform-origin: center center;
+        z-index: -1;
+    }
+
+    #alert_area .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .wrapper {
+        width: 100%;
+        max-width: 1130px;
+        margin: 0 auto;
+    }
+    #alert_area p {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+    }
+    #alert_area p:first-of-type {
+        float: left;
+        font-weight: 700;
+    }
+    #alert_area {
+        background: #b94a4d;
+        color: #fff;
+    }
+    @media screen and (max-width: 767px) { 
+        #wrapper {
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+    }
+    @media screen and (max-width: 991px) { 
+        #alert_area .wrapper {
+            padding-right: 130px;
+            padding-left: 140px;
+        }
+        #header-holder.main-header .header-graphic{ 
+            display: none;
+        }
+    }
+    @media screen and (max-width: 1251px) { 
+        #alert_area .wrapper {
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+    }
+    @media screen and (max-width: 375px) { 
+        #alert_area .wrapper p {
+            font-size: 12px;
+        }
+        #alert_area .wrapper {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+    }
+
+    #alert_area {
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 1px 3px 5px;
+    }p {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 5px;
+}
+#alert_area .button {
+    border: 1px dashed #fff;
+    color: #fff;
+    padding: 8px 20px;
+    margin: 3px 0 0;
+}
+#alert_area .button {
+    background: 0 0;
+}
+.button {
+    color: #fff;
+    background: #2f880a;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-decoration: none;
+}

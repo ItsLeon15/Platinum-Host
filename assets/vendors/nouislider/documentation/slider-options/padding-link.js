@@ -1,10 +1,3 @@
-var paddingMin = document.getElementById('slider-padding-value-min'),
-	paddingMax = document.getElementById('slider-padding-value-max');
-
-paddingSlider.noUiSlider.on('update', function ( values, handle ) {
-	if ( handle ) {
-		paddingMax.innerHTML = values[handle];
-	} else {
-		paddingMin.innerHTML = values[handle];
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb04b31031117565fe85bd49af11cab2138f1fb9e59b3912e3028d4c92feab5b
+size 332

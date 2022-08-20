@@ -1,15 +1,3 @@
-import { isValid as _isValid } from '../create/valid';
-import extend from '../utils/extend';
-import getParsingFlags from '../create/parsing-flags';
-
-export function isValid () {
-    return _isValid(this);
-}
-
-export function parsingFlags () {
-    return extend({}, getParsingFlags(this));
-}
-
-export function invalidAt () {
-    return getParsingFlags(this).overflow;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0d92d76a445272270c5942b0967e7d85a07964c21b29b5acb9448fe26ea99cb
+size 382

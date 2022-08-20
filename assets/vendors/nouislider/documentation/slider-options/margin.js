@@ -1,10 +1,3 @@
-var marginSlider = document.getElementById('slider-margin');
-
-noUiSlider.create(marginSlider, {
-	start: [ 20, 80 ],
-	margin: 30,
-	range: {
-		'min': 0,
-		'max': 100
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd3578edc3c98a97e10c08b1f293425e883e440b8c3ec51078c4228a2a55a57f
+size 181

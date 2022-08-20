@@ -1,28 +1,3 @@
-#### What does this PR do?
-
-- awesome stuff
-- really cool feature
-- refactor X
-
-#### Where should the reviewer start?
-
-- start on the src/summernote.js
-
-#### How should this be manually tested?
-
-- click here and here
-
-#### Any background context you want to provide?
-
-- the gem needed to be updated... yada yada
-
-#### What are the relevant tickets?
-
-
-#### Screenshots (if for frontend)
-
-
-### Checklist
-- [ ] added relevant tests
-- [ ] didn't break anything
-- [ ] ...
+version https://git-lfs.github.com/spec/v1
+oid sha256:d165b97fb3961892191abcba65ada80b3497f4767b7bbce19eb87fb8dbde88ab
+size 495

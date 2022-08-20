@@ -1,30 +1,3 @@
-var lUpdate = document.getElementById('l-update'),
-	lSlide = document.getElementById('l-slide'),
-	lSet = document.getElementById('l-set'),
-	lChange = document.getElementById('l-change'),
-	lStart = document.getElementById('l-start'),
-	lEnd = document.getElementById('l-end');
-
-slider.noUiSlider.on('update', function(){
-	addClassFor(lUpdate, 'tShow', 450);
-});
-
-slider.noUiSlider.on('slide', function(){
-	addClassFor(lSlide, 'tShow', 450);
-});
-
-slider.noUiSlider.on('set', function(){
-	addClassFor(lSet, 'tShow', 450);
-});
-
-slider.noUiSlider.on('change', function(){
-	addClassFor(lChange, 'tShow', 450);
-});
-
-slider.noUiSlider.on('start', function(){
-	addClassFor(lStart, 'tShow', 450);
-});
-
-slider.noUiSlider.on('end', function(){
-	addClassFor(lEnd, 'tShow', 450);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:e82230a18f53bba5b5ccf89d2aa9e867b7a911807ab00b6c211ada1f0b290ce2
+size 799

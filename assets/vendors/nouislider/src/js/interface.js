@@ -1,22 +1,3 @@
-
-	// Run the standard initializer
-	function initialize ( target, originalOptions ) {
-
-		if ( !target || !target.nodeName ) {
-			throw new Error("noUiSlider (" + VERSION + "): create requires a single element, got: " + target);
-		}
-
-		// Test the options and create the slider environment;
-		var options = testOptions( originalOptions, target );
-		var api = closure( target, options, originalOptions );
-
-		target.noUiSlider = api;
-
-		return api;
-	}
-
-	// Use an object instead of a function for future expansibility;
-	return {
-		version: VERSION,
-		create: initialize
-	};
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e502848f9adb3b9fd18433f42673240156c6f77e9aa7968b7a6bf8fd0fa8b65
+size 592

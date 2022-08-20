@@ -1,15 +1,3 @@
-{
-  "name": "@popperjs/eslint-config-popper",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Popper.js ESLint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "exit 0"
-  },
-  "author": "Federico Zivolo <federico.zivolo@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "babel-eslint": "^7.2.3"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:59cdaaf6c67d8060b76967a0d447baa970fc16809936335f31cf78e2705486b2
+size 343

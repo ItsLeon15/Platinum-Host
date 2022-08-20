@@ -1,6 +1,3 @@
-/**
- * Dutch giro account numbers (not bank numbers) have max 7 digits
- */
-$.validator.addMethod( "giroaccountNL", function( value, element ) {
-	return this.optional( element ) || /^[0-9]{1,7}$/.test( value );
-}, "Please specify a valid giro account number" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:57e95efbad05badbc978193060977dad18ce56980570e5a64b5e08358821a8cf
+size 267

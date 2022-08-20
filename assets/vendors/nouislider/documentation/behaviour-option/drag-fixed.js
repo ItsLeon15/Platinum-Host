@@ -1,11 +1,3 @@
-var dragFixedSlider = document.getElementById('drag-fixed');
-
-noUiSlider.create(dragFixedSlider, {
-	start: [ 40, 60 ],
-	behaviour: 'drag-fixed',
-	connect: true,
-	range: {
-		'min':  20,
-		'max':  80
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:f425182e0bd0f69dc45c280ddb10534dbd2b05667ecd2909b3ced18bff85eb07
+size 216

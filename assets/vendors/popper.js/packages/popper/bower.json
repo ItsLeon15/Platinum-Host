@@ -1,25 +1,3 @@
-{
-  "name": "popper.js",
-  "description": "A kickass library to manage your poppers",
-  "main": "dist/umd/popper.js",
-  "authors": [
-    "Contributors (https://github.com/FezVrasta/popper.js/graphs/contributors)"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "popperjs",
-    "component",
-    "drop",
-    "tooltip",
-    "popover",
-    "position",
-    "attached"
-  ],
-  "homepage": "https://popper.js.org",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "tests"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3a17cf10c5a1d18dbf410f3283685a427d92e8ed521bcee124a7214e4fa9d7d0
+size 518

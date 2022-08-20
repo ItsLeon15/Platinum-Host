@@ -1,14 +1,3 @@
-define( [
-	"./core",
-	"../external/sizzle/dist/sizzle"
-], function( jQuery, Sizzle ) {
-
-jQuery.find = Sizzle;
-jQuery.expr = Sizzle.selectors;
-jQuery.expr[ ":" ] = jQuery.expr.pseudos;
-jQuery.uniqueSort = jQuery.unique = Sizzle.uniqueSort;
-jQuery.text = Sizzle.getText;
-jQuery.isXMLDoc = Sizzle.isXML;
-jQuery.contains = Sizzle.contains;
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:052816241a235b09b8c2c96884cfe0bb68940c8701bdaff3b647589127dac50c
+size 356

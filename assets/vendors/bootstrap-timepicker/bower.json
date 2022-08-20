@@ -1,35 +1,3 @@
-{
-    "name": "bootstrap-timepicker",
-    "description": "A timepicker component for Twitter Bootstrap",
-    "version": "0.5.2",
-    "main": "js/bootstrap-timepicker.js",
-    "license": "MIT",
-    "ignore": [
-        "**/.*",
-        "_layouts",
-        "node_modules",
-        "_config.yml",
-        "assets",
-        "spec",
-        "index.html",
-        "Gruntfile.js",
-        "package.json",
-        "composer.json"
-    ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jdewit/bootstrap-timepicker"
-    },
-    "dependencies": {
-        "bootstrap": "^3.0",
-        "jquery": "^2.0"
-    },
-    "devDependencies": {
-        "autotype": "https://raw.github.com/mmonteleone/jquery.autotype/master/jquery.autotype.js"
-    },
-    "keywords": [
-        "widget",
-        "timepicker",
-        "time"
-    ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:48b335631972111f12cacea98fcc550e5b079a9d5c858c6965fa7a174e4bc104
+size 868

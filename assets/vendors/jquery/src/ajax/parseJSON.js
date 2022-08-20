@@ -1,13 +1,3 @@
-define( [
-	"../core"
-], function( jQuery ) {
-
-// Support: Android 2.3
-// Workaround failure to string-cast null input
-jQuery.parseJSON = function( data ) {
-	return JSON.parse( data + "" );
-};
-
-return jQuery.parseJSON;
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:d737b13dd67a11c41e08255cdc1efb396fa4aed39404c4344560049539c45599
+size 237

@@ -1,16 +1,3 @@
-.ext-databasic {
-	position: relative;
-	display: block;
-	min-height: 50px;
-	background-color: cyan;
-	text-align: center;
-	padding: 20px;
-	border: 1px solid white;
-	border-radius: 10px;
-}
-
-.ext-databasic p {
-	color: white;
-	font-size: 1.2em;
-	margin: 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:993e12ba733fdc5e6c3e56c8ddf97811b499ca9b50f9c8ff5c15dc983b513a27
+size 270

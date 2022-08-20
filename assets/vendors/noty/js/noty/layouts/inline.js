@@ -1,27 +1,3 @@
-$.noty.layouts.inline = {
-    name     : 'inline',
-    options  : {},
-    container: {
-        object  : '<ul class="noty_inline_layout_container" />',
-        selector: 'ul.noty_inline_layout_container',
-        style   : function() {
-            $(this).css({
-                width        : '100%',
-                height       : 'auto',
-                margin       : 0,
-                padding      : 0,
-                listStyleType: 'none',
-                zIndex       : 9999999
-            });
-        }
-    },
-    parent   : {
-        object  : '<li />',
-        selector: 'li',
-        css     : {}
-    },
-    css      : {
-        display: 'none'
-    },
-    addClass : ''
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:d4a4f54fec2fbc0bc2fadb3eafee14cb542c03cbbf69689f1b7298d7aabf7f9a
+size 710

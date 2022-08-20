@@ -1,13 +1,3 @@
-'use strict';
-
-module.exports = (function () {
-  function s4() {
-    return Math.floor((1 + Math.random()) * 0x10000)
-               .toString(16)
-               .substring(1);
-  }
-  return function () {
-    return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
-           s4() + '-' + s4() + s4() + s4();
-  };
-})();
+version https://git-lfs.github.com/spec/v1
+oid sha256:df77faae4c8be91387d2222e1dc33675151d312d49fa1a716056e2535a9681e6
+size 329

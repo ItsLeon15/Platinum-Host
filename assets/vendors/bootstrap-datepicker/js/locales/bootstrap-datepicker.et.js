@@ -1,18 +1,3 @@
-/**
- * Estonian translation for bootstrap-datepicker
- * Ando Roots <https://github.com/anroots>
- * Fixes by Illimar Tambek <<https://github.com/ragulka>
- */
-;(function($){
-	$.fn.datepicker.dates['et'] = {
-		days: ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"],
-		daysShort: ["Pühap", "Esmasp", "Teisip", "Kolmap", "Neljap", "Reede", "Laup"],
-		daysMin: ["P", "E", "T", "K", "N", "R", "L"],
-		months: ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"],
-		monthsShort: ["Jaan", "Veebr", "Märts", "Apr", "Mai", "Juuni", "Juuli", "Aug", "Sept", "Okt", "Nov", "Dets"],
-		today: "Täna",
-		clear: "Tühjenda",
-		weekStart: 1,
-		format: "dd.mm.yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8590368af0a9d3a69fbb3e8a6ca2cf465935b68f851c468ad6e8638cd92aa85
+size 802

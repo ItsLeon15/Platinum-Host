@@ -1,10 +1,3 @@
-var nodes = [
-	document.getElementById('lower-value'), // 0
-	document.getElementById('upper-value')  // 1
-];
-
-// Display the slider value and how far the handle moved
-// from the left edge of the slider.
-nonLinearSlider.noUiSlider.on('update', function ( values, handle, unencoded, isTap, positions ) {
-	nodes[handle].innerHTML = values[handle] + ', ' + positions[handle].toFixed(2) + '%';
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b02258441294a71826bcdfe009b57b1eda00878f125db85afe6d94e521e3375
+size 404

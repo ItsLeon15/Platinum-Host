@@ -1,9 +1,3 @@
-@mixin transition($transition...) {
-  @if $enable-transitions {
-    @if length($transition) == 0 {
-      transition: $transition-base;
-    } @else {
-      transition: $transition;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:31cabab4853a625dc74dfdc15f1e057952a3b50b86d1294f310826ff13c67632
+size 201

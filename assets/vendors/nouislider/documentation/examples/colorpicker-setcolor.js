@@ -1,13 +1,3 @@
-function setColor(){
-
-	// Get the slider values,
-	// stick them together.
-	var color = 'rgb(' +
-		sliders[0].noUiSlider.get() + ',' +
-		sliders[1].noUiSlider.get() + ',' +
-		sliders[2].noUiSlider.get() + ')';
-
-	// Fill the color box.
-	resultElement.style.background = color;
-	resultElement.style.color = color;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:10e67dd7ec058fa7445688b0d7256493540b2d87244693a925f228eed1370404
+size 326

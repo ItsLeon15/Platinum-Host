@@ -1,26 +1,3 @@
-( function() {
-
-	function stripHtml( value ) {
-
-		// Remove html tags and space chars
-		return value.replace( /<.[^<>]*?>/g, " " ).replace( /&nbsp;|&#160;/gi, " " )
-
-		// Remove punctuation
-		.replace( /[.(),;:!?%#$'\"_+=\/\-“”’]*/g, "" );
-	}
-
-	$.validator.addMethod( "maxWords", function( value, element, params ) {
-		return this.optional( element ) || stripHtml( value ).match( /\b\w+\b/g ).length <= params;
-	}, $.validator.format( "Please enter {0} words or less." ) );
-
-	$.validator.addMethod( "minWords", function( value, element, params ) {
-		return this.optional( element ) || stripHtml( value ).match( /\b\w+\b/g ).length >= params;
-	}, $.validator.format( "Please enter at least {0} words." ) );
-
-	$.validator.addMethod( "rangeWords", function( value, element, params ) {
-		var valueStripped = stripHtml( value ),
-			regex = /\b\w+\b/g;
-		return this.optional( element ) || valueStripped.match( regex ).length >= params[ 0 ] && valueStripped.match( regex ).length <= params[ 1 ];
-	}, $.validator.format( "Please enter between {0} and {1} words." ) );
-
-}() );
+version https://git-lfs.github.com/spec/v1
+oid sha256:aea56b90656d601f1bc9f190b9d888e79386ce1b126cc686adbf77dcba3ad9bf
+size 1101

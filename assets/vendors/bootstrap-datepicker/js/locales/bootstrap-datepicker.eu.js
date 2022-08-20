@@ -1,15 +1,3 @@
-/**
- * Basque translation for bootstrap-datepicker
- * Arkaitz Etxeberria <kondi80@gmail.com>
- */
-;(function($){
-    $.fn.datepicker.dates['eu'] = {
-        days: ['Igandea', 'Astelehena', 'Asteartea', 'Asteazkena', 'Osteguna', 'Ostirala', 'Larunbata'],
-        daysShort: ['Ig', 'Al', 'Ar', 'Az', 'Og', 'Ol', 'Lr'],
-        daysMin: ['Ig', 'Al', 'Ar', 'Az', 'Og', 'Ol', 'Lr'],
-        months: ['Urtarrila', 'Otsaila', 'Martxoa', 'Apirila', 'Maiatza', 'Ekaina', 'Uztaila', 'Abuztua', 'Iraila', 'Urria', 'Azaroa', 'Abendua'],
-        monthsShort: ['Urt', 'Ots', 'Mar', 'Api', 'Mai', 'Eka', 'Uzt', 'Abu', 'Ira', 'Urr', 'Aza', 'Abe'],
-        today: "Gaur"
-    };
-}(jQuery));
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:48577c5589723279e1c533ed48c06b49a9e59178c156b63066069216aafd4b8a
+size 688

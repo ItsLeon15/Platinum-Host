@@ -1,21 +1,3 @@
-import { createDuration } from './create';
-
-function addSubtract (duration, input, value, direction) {
-    var other = createDuration(input, value);
-
-    duration._milliseconds += direction * other._milliseconds;
-    duration._days         += direction * other._days;
-    duration._months       += direction * other._months;
-
-    return duration._bubble();
-}
-
-// supports only 2.0-style add(1, 's') or add(duration)
-export function add (input, value) {
-    return addSubtract(this, input, value, 1);
-}
-
-// supports only 2.0-style subtract(1, 's') or subtract(duration)
-export function subtract (input, value) {
-    return addSubtract(this, input, value, -1);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d71717c4e49b8f2b7d0b846018fe5c09aac7f5c4d07538b19b08295934f085fc
+size 682

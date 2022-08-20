@@ -1,18 +1,3 @@
-/**
- * Czech translation for bootstrap-datepicker
- * Matěj Koubík <matej@koubik.name>
- * Fixes by Michal Remiš <michal.remis@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['cs'] = {
-		days: ["Neděle", "Pondělí", "Úterý", "Středa", "Čtvrtek", "Pátek", "Sobota"],
-		daysShort: ["Ned", "Pon", "Úte", "Stř", "Čtv", "Pát", "Sob"],
-		daysMin: ["Ne", "Po", "Út", "St", "Čt", "Pá", "So"],
-		months: ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"],
-		monthsShort: ["Led", "Úno", "Bře", "Dub", "Kvě", "Čer", "Čnc", "Srp", "Zář", "Říj", "Lis", "Pro"],
-		today: "Dnes",
-		clear: "Vymazat",
-		weekStart: 1,
-		format: "dd.m.yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b847c232f91516a3e822b746bc8c70e34f93c03b1183578ff7a57814950a8ed
+size 764

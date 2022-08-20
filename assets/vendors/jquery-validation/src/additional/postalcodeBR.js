@@ -1,11 +1,3 @@
-/*
-* Valida CEPs do brasileiros:
-*
-* Formatos aceitos:
-* 99999-999
-* 99.999-999
-* 99999999
-*/
-$.validator.addMethod( "postalcodeBR", function( cep_value, element ) {
-	return this.optional( element ) || /^\d{2}.\d{3}-\d{3}?$|^\d{5}-?\d{3}?$/.test( cep_value );
-}, "Informe um CEP válido." );
+version https://git-lfs.github.com/spec/v1
+oid sha256:d17c66e3ec53fa4402d85206f8291150dd052414f7bf9915173eb017cd5d93d9
+size 303

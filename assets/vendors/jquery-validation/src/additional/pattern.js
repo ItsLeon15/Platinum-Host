@@ -1,22 +1,3 @@
-/**
-* Return true if the field value matches the given format RegExp
-*
-* @example $.validator.methods.pattern("AR1004",element,/^AR\d{4}$/)
-* @result true
-*
-* @example $.validator.methods.pattern("BR1004",element,/^AR\d{4}$/)
-* @result false
-*
-* @name $.validator.methods.pattern
-* @type Boolean
-* @cat Plugins/Validate/Methods
-*/
-$.validator.addMethod( "pattern", function( value, element, param ) {
-	if ( this.optional( element ) ) {
-		return true;
-	}
-	if ( typeof param === "string" ) {
-		param = new RegExp( "^(?:" + param + ")$" );
-	}
-	return param.test( value );
-}, "Invalid format." );
+version https://git-lfs.github.com/spec/v1
+oid sha256:66b291007ec2fa9782f814831d5fbcc0f5d3f47d5a3c333ee318745012e76e1d
+size 615

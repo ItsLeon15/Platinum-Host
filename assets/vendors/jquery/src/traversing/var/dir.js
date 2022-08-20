@@ -1,20 +1,3 @@
-define( [
-	"../../core"
-], function( jQuery ) {
-
-return function( elem, dir, until ) {
-	var matched = [],
-		truncate = until !== undefined;
-
-	while ( ( elem = elem[ dir ] ) && elem.nodeType !== 9 ) {
-		if ( elem.nodeType === 1 ) {
-			if ( truncate && jQuery( elem ).is( until ) ) {
-				break;
-			}
-			matched.push( elem );
-		}
-	}
-	return matched;
-};
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:c85984c82f14d800623df973749b89b767792c501dd0ad5fd65af6952cccaef9
+size 376

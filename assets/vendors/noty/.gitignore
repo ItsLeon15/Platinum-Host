@@ -1,8 +1,3 @@
-child/
-
-.DS_Store
-
-.idea/
-
-node_modules/
-_SpecRunner.html
+version https://git-lfs.github.com/spec/v1
+oid sha256:f333f26d39afbe8bb48536bc1fa60715ac223261da008d174b711807361b8668
+size 64

@@ -1,22 +1,3 @@
-
-	QUnit.test( "Margin divisible by step", function( assert ){
-
-		expect(0);
-	
-		Q.innerHTML = '<div class="slider"></div>';
-
-		var settings = {
-			start: 10,
-			margin: 5,
-			step: 0.2,
-			range: {
-				'min': 1,
-				'max': 100
-			}
-		};
-
-		var slider = Q.querySelector('.slider');
-
-		// Should not throw on divisibility
-		noUiSlider.create(slider, settings);
-	});
+version https://git-lfs.github.com/spec/v1
+oid sha256:c768afd1b013d0e2517d3d93fb9aa04e03dffb21018c747324ce5aa01f4d84f8
+size 386

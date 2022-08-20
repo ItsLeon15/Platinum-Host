@@ -1,24 +1,3 @@
-/**
- * Super simple wysiwyg editor v@VERSION
- * http://summernote.org/
- *
- * @FILENAME
- * Copyright 2013- Alan Hong. and other contributors
- * summernote may be freely distributed under the MIT license./
- *
- * Date: @DATE
- */
-(function (factory) {
-  /* global define */
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define(['jquery'], factory);
-  } else if (typeof module === 'object' && module.exports) {
-    // Node/CommonJS
-    module.exports = factory(require('jquery'));
-  } else {
-    // Browser globals
-    factory(window.jQuery);
-  }
-}(function ($) {
-  'use strict';
+version https://git-lfs.github.com/spec/v1
+oid sha256:8129ba721d6cfc133539039f640c10dc0a490b9bf6baedf7c2aa2da76b97518c
+size 654

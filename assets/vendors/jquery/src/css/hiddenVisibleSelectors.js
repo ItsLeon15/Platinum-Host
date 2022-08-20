@@ -1,18 +1,3 @@
-define( [
-	"../core",
-	"../selector"
-], function( jQuery ) {
-
-jQuery.expr.filters.hidden = function( elem ) {
-	return !jQuery.expr.filters.visible( elem );
-};
-jQuery.expr.filters.visible = function( elem ) {
-
-	// Support: Opera <= 12.12
-	// Opera reports offsetWidths and offsetHeights less than zero on some elements
-	// Use OR instead of AND as the element is not visible if either is true
-	// See tickets #10406 and #13132
-	return elem.offsetWidth > 0 || elem.offsetHeight > 0 || elem.getClientRects().length > 0;
-};
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a20269fe9ad6bd23f3a67304ec5d114578426d205d2d96ec9bed8f2db93ff98
+size 544

@@ -1,3 +1,3 @@
-# License
-
-Chart.js is <a href="https://github.com/chartjs/Chart.js" target="_blank">open source</a> and available under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4c036b0688c376c6bfe91f414fbffccc4f2f93ab8c8fa0ab5ae9e9ad2be2afc
+size 204

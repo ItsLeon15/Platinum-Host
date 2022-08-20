@@ -1,15 +1,3 @@
-/**
- * Get CSS computed property of the given element
- * @method
- * @memberof Popper.Utils
- * @argument {Eement} element
- * @argument {String} property
- */
-export default function getStyleComputedProperty(element, property) {
-  if (element.nodeType !== 1) {
-    return [];
-  }
-  // NOTE: 1 DOM access here
-  const css = getComputedStyle(element, null);
-  return property ? css[property] : css;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:85b5f026303b29fd3a98670dd9c7dfe982e1760bd978c20006e8e2445bde2bea
+size 411

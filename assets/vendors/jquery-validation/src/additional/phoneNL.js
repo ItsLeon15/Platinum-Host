@@ -1,6 +1,3 @@
-/**
- * Dutch phone numbers have 10 digits (or 11 and start with +31).
- */
-$.validator.addMethod( "phoneNL", function( value, element ) {
-	return this.optional( element ) || /^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)[1-9]((\s|\s?\-\s?)?[0-9]){8}$/.test( value );
-}, "Please specify a valid phone number." );
+version https://git-lfs.github.com/spec/v1
+oid sha256:bef210d466c0761c46c00e598d759abcab5a1b9a57a6876da024cf83105705b5
+size 329

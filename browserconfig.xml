@@ -1,9 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<browserconfig>
-    <msapplication>
-        <tile>
-            <square310x310logo src="/images/icon/mstile-310x310.png"/>
-            <TileColor>#00aba9</TileColor>
-        </tile>
-    </msapplication>
-</browserconfig>
+version https://git-lfs.github.com/spec/v1
+oid sha256:066c81c3fa4c022cf2e22eaed4e3ab6989fbc332eb940fc915edefd60a55eb11
+size 258

@@ -1,16 +1,3 @@
-import toInt from './to-int';
-
-// compare two arrays, return the number of differences
-export default function compareArrays(array1, array2, dontConvert) {
-    var len = Math.min(array1.length, array2.length),
-        lengthDiff = Math.abs(array1.length - array2.length),
-        diffs = 0,
-        i;
-    for (i = 0; i < len; i++) {
-        if ((dontConvert && array1[i] !== array2[i]) ||
-            (!dontConvert && toInt(array1[i]) !== toInt(array2[i]))) {
-            diffs++;
-        }
-    }
-    return diffs + lengthDiff;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4d443b426b5197b8f1da86f4642e1c659ce910a7868c754bd947ba1c247535d
+size 547

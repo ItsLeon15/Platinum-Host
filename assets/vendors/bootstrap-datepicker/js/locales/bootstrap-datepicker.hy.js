@@ -1,17 +1,3 @@
-/**
- * Armenian translation for bootstrap-datepicker
- * Hayk Chamyan <hamshen@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['hy'] = {
-		days: ["Կիրակի", "Երկուշաբթի", "Երեքշաբթի", "Չորեքշաբթի", "Հինգշաբթի", "Ուրբաթ", "Շաբաթ"],
-		daysShort: ["Կրկ", "Երկ", "Երք", "Չրք", "Հնգ", "Ուր", "Շբթ"],
-		daysMin: ["Կրկ", "Երկ", "Երք", "Չրք", "Հնգ", "Ուր", "Շբթ"],
-		months: ["Հունվար", "Փետրվար", "Մարտ", "Ապրիլ", "Մայիս", "Հունիս", "Հուլիս", "Օգոստոս", "Սեպտեմբեր", "Հոկտեմբեր", "Նոյեմբեր", "Դեկտեմբեր"],
-		monthsShort: ["Հուն", "Փետ", "Մար", "Ապր", "Մայ", "Հնս", "Հլս", "Օգս", "Սեպ", "Հոկ", "Նմբ", "Դեկ"],
-		today: "Այսօր",
-		clear: "Ջնջել",
-		format: "dd.mm.yyyy",
-		weekStart: 1
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8da88e66153f5be14d9e5f208216488e01bf9a0bd62bb998450fbc7c0dd2c28
+size 938

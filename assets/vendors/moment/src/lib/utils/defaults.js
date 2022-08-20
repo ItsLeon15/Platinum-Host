@@ -1,10 +1,3 @@
-// Pick the first defined of two or three arguments.
-export default function defaults(a, b, c) {
-    if (a != null) {
-        return a;
-    }
-    if (b != null) {
-        return b;
-    }
-    return c;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7433419231228ad4964722330a5371e9eafdd39ffcebc9035ed47101617b01a8
+size 213

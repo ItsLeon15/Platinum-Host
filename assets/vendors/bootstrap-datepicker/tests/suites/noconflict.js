@@ -1,20 +1,3 @@
-module('NoConflict', {
-    setup: function(){
-        var datepicker = $.fn.datepicker.noConflict();
-        $.fn.bootstrapDP = datepicker;
-    },
-    teardown: function(){
-        $.fn.datepicker = $.fn.bootstrapDP;
-        delete $.fn.bootstrapDP;
-    }
-});
-
-test('Datepicker starts after calling noConflict() (no undefined defaults or locale_opts)', function(){
-    $('<div class="input-append date" id="datepicker">'+
-        '<input size="16" type="text" value="12-02-2012" readonly>'+
-        '<span class="add-on"><i class="icon-th"></i></span>'+
-        '</div>')
-        .appendTo('#qunit-fixture')
-        .bootstrapDP();
-    expect(0);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:e16fb4b1920822b72fe5c4890274442c7b818c9c8baa1010055a68219fa9c627
+size 671

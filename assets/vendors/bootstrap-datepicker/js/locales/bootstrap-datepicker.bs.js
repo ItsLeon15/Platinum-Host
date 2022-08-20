@@ -1,15 +1,3 @@
-/**
- * Bosnian translation for bootstrap-datepicker
- */
-;(function($){
-	$.fn.datepicker.dates['bs'] = {
-		days: ["Nedjelja","Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota"],
-		daysShort: ["Ned", "Pon", "Uto", "Sri", "Čet", "Pet", "Sub"],
-		daysMin: ["N", "Po", "U", "Sr", "Č", "Pe", "Su"],
-		months: ["Januar", "Februar", "Mart", "April", "Maj", "Juni", "Juli", "August", "Septembar", "Oktobar", "Novembar", "Decembar"],
-		monthsShort: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"],
-		today: "Danas",
-		weekStart: 1,
-		format: "dd.mm.yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b6e48b0ccce6117b3eda120261b087fe18586ac9c55c48dfc6d4af3cb8502e8
+size 631

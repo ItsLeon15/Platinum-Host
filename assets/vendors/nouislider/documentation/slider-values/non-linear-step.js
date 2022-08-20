@@ -1,11 +1,3 @@
-var nonLinearStepSlider = document.getElementById('slider-non-linear-step');
-
-noUiSlider.create(nonLinearStepSlider, {
-	start: [ 500, 4000 ],
-	range: {
-		'min': [     0 ],
-		'10%': [   500,  500 ],
-		'50%': [  4000, 1000 ],
-		'max': [ 10000 ]
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:e510789d06f9d858625b05d395138ce57803c256262cb71953cfd34d1dae2cd5
+size 261

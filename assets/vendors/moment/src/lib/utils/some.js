@@ -1,19 +1,3 @@
-var some;
-if (Array.prototype.some) {
-    some = Array.prototype.some;
-} else {
-    some = function (fun) {
-        var t = Object(this);
-        var len = t.length >>> 0;
-
-        for (var i = 0; i < len; i++) {
-            if (i in t && fun.call(this, t[i], i, t)) {
-                return true;
-            }
-        }
-
-        return false;
-    };
-}
-
-export { some as default };
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a51f7303175e51f55f680c55f77e021eeb9e647f59c447156bdf55eb53b5dac
+size 402

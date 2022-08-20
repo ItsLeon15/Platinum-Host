@@ -1,16 +1,3 @@
-import { addFormatToken } from '../format/format';
-
-// FORMATTING
-
-addFormatToken('z',  0, 0, 'zoneAbbr');
-addFormatToken('zz', 0, 0, 'zoneName');
-
-// MOMENTS
-
-export function getZoneAbbr () {
-    return this._isUTC ? 'UTC' : '';
-}
-
-export function getZoneName () {
-    return this._isUTC ? 'Coordinated Universal Time' : '';
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9827e5dd6f16d38884093b5302cf49b7f22621b6727b705edc9b9e932764c2e7
+size 344

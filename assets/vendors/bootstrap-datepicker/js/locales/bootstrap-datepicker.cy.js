@@ -1,14 +1,3 @@
-/**
- * Welsh translation for bootstrap-datepicker
- * S. Morris <s.morris@bangor.ac.uk>
- */
-;(function($){
-	$.fn.datepicker.dates['cy'] = {
-		days: ["Sul", "Llun", "Mawrth", "Mercher", "Iau", "Gwener", "Sadwrn"],
-		daysShort: ["Sul", "Llu", "Maw", "Mer", "Iau", "Gwe", "Sad"],
-		daysMin: ["Su", "Ll", "Ma", "Me", "Ia", "Gwe", "Sa"],
-		months: ["Ionawr", "Chewfror", "Mawrth", "Ebrill", "Mai", "Mehefin", "Gorfennaf", "Awst", "Medi", "Hydref", "Tachwedd", "Rhagfyr"],
-		monthsShort: ["Ion", "Chw", "Maw", "Ebr", "Mai", "Meh", "Gor", "Aws", "Med", "Hyd", "Tach", "Rha"],
-		today: "Heddiw"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b7b8325f88da3221034666053124713dd268f27aa9c5bf731b2563a6ddd9be1
+size 616

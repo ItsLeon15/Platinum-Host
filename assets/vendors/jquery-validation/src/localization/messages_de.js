@@ -1,20 +1,3 @@
-/*
- * Translated default messages for the jQuery validation plugin.
- * Locale: DE (German, Deutsch)
- */
-$.extend( $.validator.messages, {
-	required: "Dieses Feld ist ein Pflichtfeld.",
-	maxlength: $.validator.format( "Geben Sie bitte maximal {0} Zeichen ein." ),
-	minlength: $.validator.format( "Geben Sie bitte mindestens {0} Zeichen ein." ),
-	rangelength: $.validator.format( "Geben Sie bitte mindestens {0} und maximal {1} Zeichen ein." ),
-	email: "Geben Sie bitte eine gültige E-Mail Adresse ein.",
-	url: "Geben Sie bitte eine gültige URL ein.",
-	date: "Bitte geben Sie ein gültiges Datum ein.",
-	number: "Geben Sie bitte eine Nummer ein.",
-	digits: "Geben Sie bitte nur Ziffern ein.",
-	equalTo: "Bitte denselben Wert wiederholen.",
-	range: $.validator.format( "Geben Sie bitte einen Wert zwischen {0} und {1} ein." ),
-	max: $.validator.format( "Geben Sie bitte einen Wert kleiner oder gleich {0} ein." ),
-	min: $.validator.format( "Geben Sie bitte einen Wert größer oder gleich {0} ein." ),
-	creditcard: "Geben Sie bitte eine gültige Kreditkarten-Nummer ein."
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:b618e86641c5e0a1625f1c08e4bdf807ac9a48cbaed5dae66007618de12dbd16
+size 1096

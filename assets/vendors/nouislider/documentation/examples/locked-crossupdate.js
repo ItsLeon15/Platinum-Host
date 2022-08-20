@@ -1,16 +1,3 @@
-function crossUpdate ( value, slider ) {
-
-	// If the sliders aren't interlocked, don't
-	// cross-update.
-	if ( !lockedState ) return;
-
-	// Select whether to increase or decrease
-	// the other slider value.
-	var a = slider1 === slider ? 0 : 1, b = a ? 0 : 1;
-
-	// Offset the slider value.
-	value -= lockedValues[b] - lockedValues[a];
-
-	// Set the value
-	slider.noUiSlider.set(value);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb699f137f6d29d3acbf054319443129934fe33139d61930e51f5677ca0843f5
+size 401

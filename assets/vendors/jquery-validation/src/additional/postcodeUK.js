@@ -1,4 +1,3 @@
-// Matches UK postcode. Does not match to UK Channel Islands that have their own postcodes (non standard UK)
-$.validator.addMethod( "postcodeUK", function( value, element ) {
-	return this.optional( element ) || /^((([A-PR-UWYZ][0-9])|([A-PR-UWYZ][0-9][0-9])|([A-PR-UWYZ][A-HK-Y][0-9])|([A-PR-UWYZ][A-HK-Y][0-9][0-9])|([A-PR-UWYZ][0-9][A-HJKSTUW])|([A-PR-UWYZ][A-HK-Y][0-9][ABEHMNPRVWXY]))\s?([0-9][ABD-HJLNP-UW-Z]{2})|(GIR)\s?(0AA))$/i.test( value );
-}, "Please specify a valid UK postcode" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:b630bb47ee6256ac9b05f8eac01087cb2b353e0d05c982201b68d6e67c6866e6
+size 498

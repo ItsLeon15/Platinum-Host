@@ -1,29 +1,3 @@
-// Tests of the scale service
-describe('Test the scale service', function() {
-
-	it('should update scale defaults', function() {
-		var defaults = {
-			testProp: true
-		};
-		var type = 'my_test_type';
-		var Constructor = function() {
-			this.initialized = true;
-		};
-		Chart.scaleService.registerScaleType(type, Constructor, defaults);
-
-		// Should equal defaults but not be an identical object
-		expect(Chart.scaleService.getScaleDefaults(type)).toEqual(jasmine.objectContaining({
-			testProp: true
-		}));
-
-		Chart.scaleService.updateScaleDefaults(type, {
-			testProp: 'red',
-			newProp: 42
-		});
-
-		expect(Chart.scaleService.getScaleDefaults(type)).toEqual(jasmine.objectContaining({
-			testProp: 'red',
-			newProp: 42
-		}));
-	});
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ebd89ba878b2125dac42cc21cf085f6820ccc3d7a3fb43be30a84c5d61a0cc9
+size 764

@@ -1,7 +1,3 @@
-#!/usr/bin/env bash
-
-set -e # exit when error
-
-# & wait added so that if any of the command fails
-# you can still CTRL+C the whole thing (no phantom process)
-npm run watch:js & npm run serve-tests & wait
+version https://git-lfs.github.com/spec/v1
+oid sha256:ded49317f4a7d40825161b126b9dad338fbe32448215b64cb308654441190d18
+size 211

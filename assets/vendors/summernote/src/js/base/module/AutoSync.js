@@ -1,22 +1,3 @@
-define([
-  'summernote/base/core/dom'
-], function (dom) {
-  /**
-   * textarea auto sync.
-   */
-  var AutoSync = function (context) {
-    var $note = context.layoutInfo.note;
-
-    this.events = {
-      'summernote.change': function () {
-        $note.val(context.invoke('code'));
-      }
-    };
-
-    this.shouldInitialize = function () {
-      return dom.isTextarea($note[0]);
-    };
-  };
-
-  return AutoSync;
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:500169afc089e746ae8443d3cba20d10c92964320b9db174a3816d3f6b860de6
+size 434

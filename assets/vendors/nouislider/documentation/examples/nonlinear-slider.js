@@ -1,15 +1,3 @@
-var nonLinearSlider = document.getElementById('nonlinear');
-
-noUiSlider.create(nonLinearSlider, {
-	connect: true,
-	behaviour: 'tap',
-	start: [ 500, 4000 ],
-	range: {
-		// Starting at 500, step the value by 500,
-		// until 4000 is reached. From there, step by 1000.
-		'min': [ 0 ],
-		'10%': [ 500, 500 ],
-		'50%': [ 4000, 1000 ],
-		'max': [ 10000 ]
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce6bcb9147738d8fba04cf4b92ff4d888e988ad09970bd4bd1e3f539cd8d5507
+size 370

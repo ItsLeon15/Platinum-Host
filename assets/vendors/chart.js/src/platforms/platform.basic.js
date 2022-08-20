@@ -1,15 +1,3 @@
-/**
- * Platform fallback implementation (minimal).
- * @see https://github.com/chartjs/Chart.js/pull/4591#issuecomment-319575939
- */
-
-module.exports = {
-	acquireContext: function(item) {
-		if (item && item.canvas) {
-			// Support for any object associated to a canvas (including a context2d)
-			item = item.canvas;
-		}
-
-		return item && item.getContext('2d') || null;
-	}
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:aee37e1085c5060f10df0c2cab0c92fb3dbd995cd6e1646660e078fe655e49ea
+size 388

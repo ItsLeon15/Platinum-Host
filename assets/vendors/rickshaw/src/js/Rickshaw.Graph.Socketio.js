@@ -1,11 +1,3 @@
-Rickshaw.namespace('Rickshaw.Graph.Socketio');
-
-Rickshaw.Graph.Socketio = Rickshaw.Class.create( Rickshaw.Graph.Ajax, {
-	request: function() {
-		var socket = io.connect(this.dataURL);
-		var self = this;
-		socket.on('rickshaw', function (data) {
-			self.success(data);
-		});
-	}
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:b038a765764f5393e9687a39f0499dfcb58ac4b7b0ffeb36047e69f3f3995c5b
+size 293

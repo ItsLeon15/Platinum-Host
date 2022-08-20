@@ -1,13 +1,3 @@
-;(function($){
-	$.fn.datepicker.dates['gl'] = {
-		days: ["Domingo", "Luns", "Martes", "Mércores", "Xoves", "Venres", "Sábado"],
-		daysShort: ["Dom", "Lun", "Mar", "Mér", "Xov", "Ven", "Sáb"],
-		daysMin: ["Do", "Lu", "Ma", "Me", "Xo", "Ve", "Sa"],
-		months: ["Xaneiro", "Febreiro", "Marzo", "Abril", "Maio", "Xuño", "Xullo", "Agosto", "Setembro", "Outubro", "Novembro", "Decembro"],
-		monthsShort: ["Xan", "Feb", "Mar", "Abr", "Mai", "Xun", "Xul", "Ago", "Sep", "Out", "Nov", "Dec"],
-		today: "Hoxe",
-		clear: "Limpar",
-		weekStart: 1,
-		format: "dd/mm/yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0ef4c37d4f2a3e28b5e6281915bd0ce7b617efdf0a2c8c2eb01ed8c9802c5a0
+size 592

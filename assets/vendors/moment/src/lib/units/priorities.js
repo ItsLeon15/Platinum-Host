@@ -1,16 +1,3 @@
-var priorities = {};
-
-export function addUnitPriority(unit, priority) {
-    priorities[unit] = priority;
-}
-
-export function getPrioritizedUnits(unitsObj) {
-    var units = [];
-    for (var u in unitsObj) {
-        units.push({unit: u, priority: priorities[u]});
-    }
-    units.sort(function (a, b) {
-        return a.priority - b.priority;
-    });
-    return units;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:be57d8b479b8a1c82eadb2f894aa8c8033671524deb935045184f5b423979bdf
+size 385

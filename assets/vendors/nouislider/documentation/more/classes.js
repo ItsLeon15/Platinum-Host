@@ -1,13 +1,3 @@
-noUiSlider.create(slider, {
-	start: 80,
-	range: {
-		min: 0,
-		max: 100
-	},
-	cssPrefix: 'noUi-', // defaults to 'noUi-',
-	cssClasses: {
-		// Full list of classnames to override. Does NOT extend the default classes.
-		// Have a look at the source for the full, current list:
-		// https://github.com/leongersen/noUiSlider/blob/master/src/js/options.js#L316
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ec9f04d26574493072b33b389d044698c3f07a587faa6952a46084c11cb1ca2
+size 374

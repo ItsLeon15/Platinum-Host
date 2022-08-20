@@ -1,10 +1,3 @@
-# General Configuration
-
-These sections describe general configuration options that can apply elsewhere in the documentation.
-
-* [Responsive](./responsive.md) defines responsive chart options that apply to all charts.
-* [Device Pixel Ratio](./device-pixel-ratio.md) defines the ratio between display pixels and rendered pixels.
-* [Interactions](./interactions/README.md) defines options that reflect how hovering chart elements works.
-* [Options](./options.md) scriptable and indexable options syntax.
-* [Colors](./colors.md) defines acceptable color values.
-* [Font](./fonts.md) defines various font options.
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c8d5bcbab9c67bef955455ff14ec147cad2629a6c11c5621862030fc1bcb916
+size 620

@@ -1,15 +1,3 @@
-{
-  "name": "@popperjs/test-utils",
-  "version": "1.0.0",
-  "main": "setup.js",
-  "description": "Test utils for Popper.js tests",
-  "author": "Federico Zivolo <federico.zivolo@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "exit 0"
-  },
-  "dependencies": {
-    "babel-eslint": "^7.2.3",
-    "eslint-plugin-jasmine": "^2.6.2"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a7474283042c826614cc89803991e29a78c61d16d084e9208bf133697309ab1a
+size 360

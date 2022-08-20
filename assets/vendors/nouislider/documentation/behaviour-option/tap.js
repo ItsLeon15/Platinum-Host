@@ -1,11 +1,3 @@
-var tapSlider = document.getElementById('tap');
-
-noUiSlider.create(tapSlider, {
-	start: 40,
-	behaviour: 'tap',
-	connect: [false, true],
-	range: {
-		'min':  20,
-		'max':  80
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3b76d1e5ccd8d7e0a60b853e1f476cb5d4ae43eb673619efd785461ac22bad4
+size 191

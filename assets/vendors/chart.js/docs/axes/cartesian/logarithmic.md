@@ -1,12 +1,3 @@
-# Logarithmic Cartesian Axis
-
-The logarithmic scale is use to chart numerical data. It can be placed on either the x or y axis. As the name suggests, logarithmic interpolation is used to determine where a value lies on the axis.
-
-## Tick Configuration Options
-
-The following options are provided by the logarithmic scale. They are all located in the `ticks` sub options. These options extend the [common tick configuration](README.md#tick-configuration).
-
-| Name | Type | Default | Description
-| -----| ---- | --------| -----------
-| `min` | `Number` | | User defined minimum number for the scale, overrides minimum value from data.
-| `max` | `Number` | | User defined maximum number for the scale, overrides maximum value from data.
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd144c4f406f690e2a0a66b8b0cc4fd52b5987905459676009eb26dc009f0c9f
+size 744

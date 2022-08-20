@@ -1,30 +1,3 @@
-{
-  "name": "photoswipe",
-  "repository": "dimsemenov/PhotoSwipe",
-  "description": "JavaScript gallery",
-  "main": "dist/photoswipe.js",
-  "version": "4.1.2",
-  "keywords": [
-    "gallery",
-    "lightbox",
-    "photo",
-    "image",
-    "touch",
-    "swipe",
-    "zoom"
-  ],
-  "scripts": [
-    "dist/photoswipe.js",
-    "dist/photoswipe-ui-default.js"
-  ],
-  "styles": [
-    "dist/photoswipe.css",
-    "dist/default-skin/default-skin.css"
-  ],
-  "images": [
-    "dist/default-skin/default-skin.png",
-    "dist/default-skin/default-skin.svg",
-    "dist/default-skin/preloader.gif"
-  ],
-  "license": "MIT"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d393b0cbb9bdd49e87a2d1c44df4051b65187ddae3f4cf5d1af9cf00b798dc1a
+size 634

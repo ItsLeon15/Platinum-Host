@@ -1,25 +1,3 @@
-const env = require.resolve('babel-preset-env');
-const stage2 = require.resolve('babel-preset-stage-2');
-const externalHelpers = require.resolve('babel-plugin-external-helpers');
-
-module.exports = {
-  es5: {
-    presets: [
-      [
-        env,
-        {
-          targets: {
-            browsers: ['last 2 versions', 'ie >= 10'],
-          },
-          modules: false,
-        },
-      ],
-      stage2,
-    ],
-    plugins: [externalHelpers],
-  },
-  es6: {
-    presets: [stage2],
-    plugins: [externalHelpers],
-  },
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:879dc6319f79903a9500634b9f8bf30570843ebdd5b72a1be4da3a81287e60ba
+size 544

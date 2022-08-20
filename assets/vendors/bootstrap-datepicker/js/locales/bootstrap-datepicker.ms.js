@@ -1,15 +1,3 @@
-/**
- * Malay translation for bootstrap-datepicker
- * Ateman Faiz <noorulfaiz@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['ms'] = {
-		days: ["Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"],
-		daysShort: ["Aha", "Isn", "Sel", "Rab", "Kha", "Jum", "Sab"],
-		daysMin: ["Ah", "Is", "Se", "Ra", "Kh", "Ju", "Sa"],
-		months: ["Januari", "Februari", "Mac", "April", "Mei", "Jun", "Julai", "Ogos", "September", "Oktober", "November", "Disember"],
-		monthsShort: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"],
-		today: "Hari Ini",
-        clear: "Bersihkan"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:516602f2153dfc7343ee29a74a9e5520129bf74d1dd1ccfdaadc60d590343dd1
+size 643

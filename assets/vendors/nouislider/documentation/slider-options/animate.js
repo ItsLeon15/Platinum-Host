@@ -1,27 +1,3 @@
-var trueSlider = document.getElementById('slider-animate-true'),
-	falseSlider = document.getElementById('slider-animate-false'),
-	setButton = document.getElementById('set-sliders');
-
-noUiSlider.create(trueSlider, {
-	animate: true,
-	animationDuration: 300,
-	start: 20,
-	range: {
-		min: 0,
-		max: 100
-	}
-});
-
-noUiSlider.create(falseSlider, {
-	animate: false,
-	start: 20,
-	range: {
-		min: 0,
-		max: 100
-	}
-});
-
-setButton.addEventListener('click', function(){
-	trueSlider.noUiSlider.set(60);
-	falseSlider.noUiSlider.set(60);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fe96ab38596a685e50aed9a51ec9377ff487175528d4f45cf65b0d0760392dd
+size 552

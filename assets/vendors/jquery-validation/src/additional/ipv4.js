@@ -1,3 +1,3 @@
-$.validator.addMethod( "ipv4", function( value, element ) {
-	return this.optional( element ) || /^(25[0-5]|2[0-4]\d|[01]?\d\d?)\.(25[0-5]|2[0-4]\d|[01]?\d\d?)\.(25[0-5]|2[0-4]\d|[01]?\d\d?)\.(25[0-5]|2[0-4]\d|[01]?\d\d?)$/i.test( value );
-}, "Please enter a valid IP v4 address." );
+version https://git-lfs.github.com/spec/v1
+oid sha256:141bc6d9e44a903550eb2ff87efa248356d17ae2b618db063ea1f2a8cd3735b9
+size 286

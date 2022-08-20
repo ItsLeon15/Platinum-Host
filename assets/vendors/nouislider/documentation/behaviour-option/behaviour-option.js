@@ -1,12 +1,3 @@
-var behaviourSlider = document.getElementById('behaviour');
-
-noUiSlider.create(behaviourSlider, {
-	start: [ 20, 40 ],
-	step: 10,
-	behaviour: 'drag',
-	connect: true,
-	range: {
-		'min':  20,
-		'max':  80
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a6bd37df4b37220ae8f1df01fb40fee934f1c79f789ad5420a8c1cb68f108ea
+size 221

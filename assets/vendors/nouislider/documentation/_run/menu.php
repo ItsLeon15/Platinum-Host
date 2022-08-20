@@ -1,12 +1,3 @@
-<div class="bar-group">
-	<a class="bar-link project" href="/nouislider/">noUiSlider</a>
-	<a class="bar-link" href="/nouislider/slider-values/">Slider range and handles</a>
-	<a class="bar-link" href="/nouislider/slider-read-write/">Reading &amp; Setting values</a>
-	<a class="bar-link" href="/nouislider/slider-options/">Options</a>
-	<a class="bar-link" href="/nouislider/behaviour-option/">Tapping, dragging &amp; fixed ranges</a>
-	<a class="bar-link" href="/nouislider/examples/">Examples</a>
-	<a class="bar-link" href="/nouislider/events-callbacks/">Events</a>
-	<a class="bar-link" href="/nouislider/pips/">Scale/Pips</a>
-	<a class="bar-link" href="/nouislider/more/">More...</a>
-	<a class="bar-link download" href="/nouislider/download/">Download noUiSlider</a>
-</div>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce87e784233b62756cc8135927f9602195d95708936fd7a05e08e9d935a5e986
+size 784

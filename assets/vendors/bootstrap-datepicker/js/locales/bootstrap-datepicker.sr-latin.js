@@ -1,16 +1,3 @@
-/**
- * Serbian latin translation for bootstrap-datepicker
- * Bojan Milosavlević <milboj@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['sr-latin'] = {
-		days: ["Nedelja","Ponedeljak", "Utorak", "Sreda", "Četvrtak", "Petak", "Subota"],
-		daysShort: ["Ned", "Pon", "Uto", "Sre", "Čet", "Pet", "Sub"],
-		daysMin: ["N", "Po", "U", "Sr", "Č", "Pe", "Su"],
-		months: ["Januar", "Februar", "Mart", "April", "Maj", "Jun", "Jul", "Avgust", "Septembar", "Oktobar", "Novembar", "Decembar"],
-		monthsShort: ["Jan", "Feb", "Mar", "Apr", "Maj", "Jun", "Jul", "Avg", "Sep", "Okt", "Nov", "Dec"],
-		today: "Danas",
-		weekStart: 1,
-		format: "dd.mm.yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:0163d1f5907fe65e44a0911e1564bd5a91595781eeeee7367aafa0be154f015a
+size 680

@@ -1,11 +1,3 @@
-var pipsCount = document.getElementById('pips-count');
-
-noUiSlider.create(pipsCount, {
-	range: range_all_sliders,
-	start: 0,
-	pips: {
-		mode: 'count',
-		values: 6,
-		density: 4
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9f88b065ffa480452c0aa97e4251e0e198dd66ea1c229de29ad75d97429a0fb
+size 195

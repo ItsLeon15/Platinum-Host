@@ -1,33 +1,3 @@
-// Create a list of day and monthnames.
-var
-	weekdays = [
-		"Sunday", "Monday", "Tuesday",
-		"Wednesday", "Thursday", "Friday",
-		"Saturday"
-	],
-	months = [
-		"January", "February", "March",
-		"April", "May", "June", "July",
-		"August", "September", "October",
-		"November", "December"
-	];
-
-// Append a suffix to dates.
-// Example: 23 => 23rd, 1 => 1st.
-function nth (d) {
-  if(d>3 && d<21) return 'th';
-  switch (d % 10) {
-        case 1:  return "st";
-        case 2:  return "nd";
-        case 3:  return "rd";
-        default: return "th";
-    }
-}
-
-// Create a string representation of the date.
-function formatDate ( date ) {
-    return weekdays[date.getDay()] + ", " +
-        date.getDate() + nth(date.getDate()) + " " +
-        months[date.getMonth()] + " " +
-        date.getFullYear();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0041b5631d863a3661e2ba57ed4105fd5e0d49d1168087f00954a5cd866cd20e
+size 831

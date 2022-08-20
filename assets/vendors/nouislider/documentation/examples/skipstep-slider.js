@@ -1,19 +1,3 @@
-var skipSlider = document.getElementById('skipstep');
-
-noUiSlider.create(skipSlider, {
-    range: {
-        'min': 0,
-        '10%': 10,
-        '20%': 20,
-        '30%': 30,
-		// Nope, 40 is no fun.
-        '50%': 50,
-        '60%': 60,
-        '70%': 70,
-		// I never liked 80.
-        '90%': 90,
-        'max': 100
-    },
-    snap: true,
-    start: [20, 90]
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:be7da7099b65f20e915d7aec087b7f27b3413c40c88978e4754bd9ae8e04fa0c
+size 384

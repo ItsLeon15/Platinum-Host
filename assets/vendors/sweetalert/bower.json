@@ -1,18 +1,3 @@
-{
-  "name": "sweetalert",
-  "homepage": "http://tristanedwards.me/sweetalert",
-  "authors": [
-    "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)"
-  ],
-  "description": "A beautiful replacement for JavaScript's alert.",
-  "main": ["lib/sweet-alert.js", "lib/sweet-alert.css"],
-  "keywords": [
-    "alert",
-    "modal"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:t4t5/sweetalert.git"
-  },
-  "license": "MIT"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa76ba5f45bfc95752afcb63f3aec22911d36daf0cd3c9b9c4c985b8844155ea
+size 473

@@ -1,9 +1,3 @@
-/*
- * Localized default methods for the jQuery validation plugin.
- * Locale: NL
- */
-$.extend( $.validator.methods, {
-	date: function( value, element ) {
-		return this.optional( element ) || /^\d\d?[\.\/\-]\d\d?[\.\/\-]\d\d\d?\d?$/.test( value );
-	}
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:da8e82c5cca2440a0105f2990347320f282ec129f593ffb3959cc52800adbbf3
+size 263

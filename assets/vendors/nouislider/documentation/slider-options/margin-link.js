@@ -1,10 +1,3 @@
-var marginMin = document.getElementById('slider-margin-value-min'),
-	marginMax = document.getElementById('slider-margin-value-max');
-
-marginSlider.noUiSlider.on('update', function ( values, handle ) {
-	if ( handle ) {
-		marginMax.innerHTML = values[handle];
-	} else {
-		marginMin.innerHTML = values[handle];
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:b256d0b65d6593bd87125e8603d1dbd9dd557ad0329695a9a9b97e6308dd3bdb
+size 325

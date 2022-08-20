@@ -1,16 +1,3 @@
-var updateSlider = document.getElementById('slider-update'),
-	updateSliderValue = document.getElementById('slider-update-value');
-
-noUiSlider.create(updateSlider, {
-	range: {
-		'min': 0,
-		'max': 40
-	},
-	start: 20,
-	margin: 2,
-	step: 2
-});
-
-updateSlider.noUiSlider.on('update', function( values, handle ) {
-	updateSliderValue.innerHTML = values[handle];
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:7df03df42b43f078d926840440bab6d910c365c55215a60acfaca1ebfaec8531
+size 374

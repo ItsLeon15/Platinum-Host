@@ -1,16 +1,3 @@
-/**
- * Matches a valid Canadian Postal Code
- *
- * @example jQuery.validator.methods.postalCodeCA( "H0H 0H0", element )
- * @result true
- *
- * @example jQuery.validator.methods.postalCodeCA( "H0H0H0", element )
- * @result false
- *
- * @name jQuery.validator.methods.postalCodeCA
- * @type Boolean
- * @cat Plugins/Validate/Methods
- */
-$.validator.addMethod( "postalCodeCA", function( value, element ) {
-	return this.optional( element ) || /^[ABCEGHJKLMNPRSTVXY]\d[ABCEGHJKLMNPRSTVWXYZ] *\d[ABCEGHJKLMNPRSTVWXYZ]\d$/i.test( value );
-}, "Please specify a valid postal code" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab35819a091afb31d6de56fcc4e1bc2f477b74f277630a3b0d3998173aa8386e
+size 586

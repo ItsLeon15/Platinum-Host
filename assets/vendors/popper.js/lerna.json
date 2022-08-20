@@ -1,13 +1,3 @@
-{
-  "lerna": "2.0.0",
-  "packages": [
-    "packages/*"
-  ],
-  "version": "0.0.0",
-  "npmClient": "yarn",
-  "commands": {
-    "run": {
-      "ignore": "\\@popperjs/*"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc3ed6763b322e64da5db20078d33d89161c674cd9c4e36be77c3845f47200b7
+size 191

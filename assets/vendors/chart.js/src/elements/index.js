@@ -1,7 +1,3 @@
-'use strict';
-
-module.exports = {};
-module.exports.Arc = require('./element.arc');
-module.exports.Line = require('./element.line');
-module.exports.Point = require('./element.point');
-module.exports.Rectangle = require('./element.rectangle');
+version https://git-lfs.github.com/spec/v1
+oid sha256:574c5a5fbca6aabae11f69b05eb926045484f0ce3cebc2e4ad777ea826d2651c
+size 249

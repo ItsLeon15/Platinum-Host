@@ -1,18 +1,3 @@
-/**
- * Australian English translation for bootstrap-datepicker
- * Steve Chapman <steven.p.chapman@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['en-AU'] = {
-		days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-		daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
-		daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
-		months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-		monthsShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-		today: "Today",
-		monthsTitle: "Months",
-		clear: "Clear",
-		weekStart: 1,
-		format: "d/mm/yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:48329fd865cfaca44792bc27d7c981583786f2ab1f5b7f947433c2c13b9b4615
+size 739

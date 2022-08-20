@@ -1,15 +1,3 @@
-import './prototype';
-import { getSetGlobalLocale } from './locales';
-import toInt from '../utils/to-int';
-
-getSetGlobalLocale('en', {
-    dayOfMonthOrdinalParse: /\d{1,2}(th|st|nd|rd)/,
-    ordinal : function (number) {
-        var b = number % 10,
-            output = (toInt(number % 100 / 10) === 1) ? 'th' :
-            (b === 1) ? 'st' :
-            (b === 2) ? 'nd' :
-            (b === 3) ? 'rd' : 'th';
-        return number + output;
-    }
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:fa21b49ff1f46fb0b53e61694050e41a73a39ae202137545aa7830bcb8974d77
+size 469

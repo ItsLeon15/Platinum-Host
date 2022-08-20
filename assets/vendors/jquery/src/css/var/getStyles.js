@@ -1,15 +1,3 @@
-define( function() {
-	return function( elem ) {
-
-		// Support: IE<=11+, Firefox<=30+ (#15098, #14150)
-		// IE throws on elements created in popups
-		// FF meanwhile throws on frame elements through "defaultView.getComputedStyle"
-		var view = elem.ownerDocument.defaultView;
-
-		if ( !view || !view.opener ) {
-			view = window;
-		}
-
-		return view.getComputedStyle( elem );
-	};
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d7321914755a2b617e10c191c08dbb0b1aafbca2035e8033d92720f430f5e8a
+size 395

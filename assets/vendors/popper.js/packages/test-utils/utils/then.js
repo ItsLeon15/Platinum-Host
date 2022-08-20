@@ -1,6 +1,3 @@
-export default function then(callback, delay = 100) {
-  setTimeout(callback, jasmine.THEN_DELAY);
-  jasmine.THEN_DELAY += delay;
-}
-
-beforeEach(() => (jasmine.THEN_DELAY = 0));
+version https://git-lfs.github.com/spec/v1
+oid sha256:27c469308de5ebefef05f415711a5ad8d4d685b190916bd65f078e69431fcaee
+size 182

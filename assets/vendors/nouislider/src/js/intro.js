@@ -1,23 +1,3 @@
-(function (factory) {
-
-    if ( typeof define === 'function' && define.amd ) {
-
-        // AMD. Register as an anonymous module.
-        define([], factory);
-
-    } else if ( typeof exports === 'object' ) {
-
-        // Node/CommonJS
-        module.exports = factory();
-
-    } else {
-
-        // Browser globals
-        window.noUiSlider = factory();
-    }
-
-}(function( ){
-
-	'use strict';
-
-	var VERSION = '%%REPLACE_THIS_WITH_VERSION%%';
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbacec5c42a64722ed13beeba971139b8750e161f2cf10d85a85a79f428374e8
+size 460

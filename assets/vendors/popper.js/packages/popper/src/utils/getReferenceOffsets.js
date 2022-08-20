@@ -1,16 +1,3 @@
-import findCommonOffsetParent from './findCommonOffsetParent';
-import getOffsetRectRelativeToArbitraryNode from './getOffsetRectRelativeToArbitraryNode';
-
-/**
- * Get offsets to the reference element
- * @method
- * @memberof Popper.Utils
- * @param {Object} state
- * @param {Element} popper - the popper element
- * @param {Element} reference - the reference element (the popper will be relative to this)
- * @returns {Object} An object containing the offsets which will be applied to the popper
- */
-export default function getReferenceOffsets(state, popper, reference) {
-  const commonOffsetParent = findCommonOffsetParent(popper, reference);
-  return getOffsetRectRelativeToArbitraryNode(reference, commonOffsetParent);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fb2234bddc03568dfe9eecaa305389f3bac9f931cc8eb6b9bdef2d2bc18a0cc
+size 735

@@ -1,31 +1,3 @@
-{
-	"name": "datatables",
-	"main": [
-		"media/js/jquery.dataTables.js",
-		"media/css/jquery.dataTables.css",
-		"media/images/sort_asc.png",
-		"media/images/sort_asc_disabled.png",
-		"media/images/sort_both.png",
-		"media/images/sort_desc.png",
-		"media/images/sort_desc_disabled.png"
-	],
-	"dependencies": {
-		"jquery": ">=1.7.0"
-	},
-	"license": "MIT",
-	"keywords": [
-		"jquery",
-		"datatables",
-		"table",
-		"javascript",
-		"library"
-	],
-	"ignore": [
-		"/.*",
-		"examples",
-		"media/unit_testing",
-		"composer.json",
-		"dataTables.jquery.json",
-		"package.json"
-	]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c6dc3c327941936b59e8b257015a0886534cf1b40c1911a1c75f4a7c694ee49
+size 597

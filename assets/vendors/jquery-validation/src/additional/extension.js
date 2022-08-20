@@ -1,5 +1,3 @@
-// Older "accept" file extension method. Old docs: http://docs.jquery.com/Plugins/Validation/Methods/accept
-$.validator.addMethod( "extension", function( value, element, param ) {
-	param = typeof param === "string" ? param.replace( /,/g, "|" ) : "png|jpe?g|gif";
-	return this.optional( element ) || value.match( new RegExp( "\\.(" + param + ")$", "i" ) );
-}, $.validator.format( "Please enter a value with a valid extension." ) );
+version https://git-lfs.github.com/spec/v1
+oid sha256:17c8680666dcca4330ef11d46a7f416fc7d6a53bd1e475c22f39068286dc756c
+size 436

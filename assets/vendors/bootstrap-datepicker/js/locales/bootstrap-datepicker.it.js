@@ -1,18 +1,3 @@
-/**
- * Italian translation for bootstrap-datepicker
- * Enrico Rubboli <rubboli@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['it'] = {
-		days: ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"],
-		daysShort: ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"],
-		daysMin: ["Do", "Lu", "Ma", "Me", "Gi", "Ve", "Sa"],
-		months: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
-		monthsShort: ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Lug", "Ago", "Set", "Ott", "Nov", "Dic"],
-		today: "Oggi",
-		monthsTitle: "Mesi",
-		clear: "Cancella",
-		weekStart: 1,
-		format: "dd/mm/yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:0876dcffe03f272bd3b83560d5bae854bf36b0adeae4e412ceb88f1e6ca864ed
+size 731

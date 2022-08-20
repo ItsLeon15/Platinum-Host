@@ -1,32 +1,3 @@
-{
-  "name": "matches-selector",
-  "description": "matches/matchesSelector helper",
-  "main": "matches-selector.js",
-  "devDependencies": {
-    "qunit": "1.x"
-  },
-  "homepage": "https://github.com/desandro/matches-selector",
-  "authors": [
-    "David DeSandro"
-  ],
-  "moduleType": [
-    "amd",
-    "globals",
-    "node"
-  ],
-  "keywords": [
-    "DOM",
-    "matchesSelector",
-    "matches"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    "tests.*",
-    "package.json"
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56fd5f406e31882507222744614f4809f3e2384f222e55a196981eaf7d266e90
+size 583

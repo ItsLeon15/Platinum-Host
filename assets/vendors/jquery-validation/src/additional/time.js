@@ -1,3 +1,3 @@
-$.validator.addMethod( "time", function( value, element ) {
-	return this.optional( element ) || /^([01]\d|2[0-3]|[0-9])(:[0-5]\d){1,2}$/.test( value );
-}, "Please enter a valid time, between 00:00 and 23:59" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:addb1d3bd5cb48742ec3a526755d871f8239d62cd1c2ec30a18b0e750bce5d23
+size 214

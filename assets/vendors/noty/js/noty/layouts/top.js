@@ -1,30 +1,3 @@
-$.noty.layouts.top = {
-    name     : 'top',
-    options  : {},
-    container: {
-        object  : '<ul id="noty_top_layout_container" />',
-        selector: 'ul#noty_top_layout_container',
-        style   : function() {
-            $(this).css({
-                top          : 0,
-                left         : '5%',
-                position     : 'fixed',
-                width        : '90%',
-                height       : 'auto',
-                margin       : 0,
-                padding      : 0,
-                listStyleType: 'none',
-                zIndex       : 9999999
-            });
-        }
-    },
-    parent   : {
-        object  : '<li />',
-        selector: 'li',
-        css     : {}
-    },
-    css      : {
-        display: 'none'
-    },
-    addClass : ''
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c2fea51067ccb93b9bfd7a3314d40cf7b3f7f2b1864022eaa17358a24b47278
+size 808

@@ -1,14 +1,3 @@
-var bigValueSlider = document.getElementById('slider-huge'),
-	bigValueSpan = document.getElementById('huge-value');
-
-noUiSlider.create(bigValueSlider, {
-	start: 0,
-	step: 1,
-	format: wNumb({
-		decimals: 0
-	}),
-	range: {
-		min: 0,
-		max: 13
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4888b56e3d81004a4a99c92d90af767fa82f20d4d47935492cbc2d09dfe2a4f7
+size 261

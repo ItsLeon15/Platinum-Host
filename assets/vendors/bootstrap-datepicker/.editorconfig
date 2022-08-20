@@ -1,11 +1,3 @@
-# EditorConfig is awesome: http://EditorConfig.org
-
-root = true
-
-[*]
-charset = utf-8
-end_of_line = lf
-indent_size = 2
-indent_style = space
-insert_final_newline = true
-trim_trailing_whitespace = true
+version https://git-lfs.github.com/spec/v1
+oid sha256:25d8883f40b20dafc9c2c71e7b672eeb0ee5548b61837419a8866948743711ea
+size 210

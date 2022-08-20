@@ -1,22 +1,3 @@
-{
-  "name": "summernote",
-  "homepage": "http://summernote.org",
-  "license": "MIT",
-  "main": [
-    "./dist/summernote.js",
-    "./dist/summernote.css"
-  ],
-  "ignore": [
-    "**/.*",
-    "Gruntfile.js",
-    "MAINTAIN.md",
-    "grunts",
-    "node_modules",
-    "bower_components",
-    "test"
-  ],
-  "dependencies": {
-    "jquery": ">= 1.9.0",
-    "bootstrap": ">= 3.0.1"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f56628554a0fe6b55ff584d3bdbecdbe76c16602453e7d7e923fd59c6dce2074
+size 400

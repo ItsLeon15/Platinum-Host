@@ -1,23 +1,3 @@
-export default function simulateScroll(
-  element,
-  { scrollTop, scrollLeft, delay }
-) {
-  const scrollingElement = element === document.body
-    ? document.scrollingElement || document.documentElement
-    : element;
-
-  const applyScroll = () => {
-    if (scrollTop !== undefined) {
-      scrollingElement.scrollTop = scrollTop;
-    }
-    if (scrollLeft !== undefined) {
-      scrollingElement.scrollLeft = scrollLeft;
-    }
-  };
-
-  if (delay !== undefined) {
-    setTimeout(applyScroll, delay);
-  } else {
-    applyScroll();
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4c82a38acc1174a995c6e32b45a66f5f1684e843b80e797bacd7248347b78988
+size 556

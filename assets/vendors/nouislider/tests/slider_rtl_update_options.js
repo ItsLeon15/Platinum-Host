@@ -1,32 +1,3 @@
-
-  QUnit.test( "RTL slider with updateOptions", function( assert ){
-
-    Q.innerHTML = '<div class="slider"></div>';
-
-    var slider = Q.querySelector('.slider');
-
-    noUiSlider.create(slider, {
-      range: {
-        'min': 0,
-        'max': 50
-      },
-      start: [10, 40],
-      behaviour: 'tap',
-      connect: true,
-      direction : 'rtl'
-    });
-
-    slider.noUiSlider.updateOptions({ range: { max: 100 ,min: 0 } })
-
-    assert.deepEqual(slider.noUiSlider.get(), ["10.00", "40.00"], "Proper start handling in RTL.");
-
-    slider.noUiSlider.set([20,30]);
-    assert.deepEqual(slider.noUiSlider.get(), ["20.00", "30.00"]);
-
-    slider.noUiSlider.set([40,45]);
-    assert.deepEqual(slider.noUiSlider.get(), ["40.00", "45.00"], "RTL slider overstepped properly.");
-
-    slider.noUiSlider.set([30,35]);
-    assert.deepEqual(slider.noUiSlider.get(), ["30.00", "35.00"], "RTL slider understepped properly.");
-
-  });
+version https://git-lfs.github.com/spec/v1
+oid sha256:82385d6ed602484ca68e60248bfe7b9b373fad66f33e3a4f6afb3c9280fe9826
+size 951

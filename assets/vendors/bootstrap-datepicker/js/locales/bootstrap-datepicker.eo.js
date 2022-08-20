@@ -1,17 +1,3 @@
-/**
- * Esperanto translation for bootstrap-datepicker
- * Emmanuel Debanne <https://github.com/debanne>
- */
-;(function($){
-	$.fn.datepicker.dates['eo'] = {
-		days: ["dimanĉo", "lundo", "mardo", "merkredo", "ĵaŭdo", "vendredo", "sabato"],
-		daysShort: ["dim.", "lun.", "mar.", "mer.", "ĵaŭ.", "ven.", "sam."],
-		daysMin: ["d", "l", "ma", "me", "ĵ", "v", "s"],
-		months: ["januaro", "februaro", "marto", "aprilo", "majo", "junio", "julio", "aŭgusto", "septembro", "oktobro", "novembro", "decembro"],
-		monthsShort: ["jan.", "feb.", "mar.", "apr.", "majo", "jun.", "jul.", "aŭg.", "sep.", "okt.", "nov.", "dec."],
-		today: "Hodiaŭ",
-		clear: "Nuligi",
-		weekStart: 1,
-		format: "yyyy-mm-dd"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:fcd4a1db49efbea8d5b8d3757d84c6a4b9901867e288ad940098bcaf2aace0dd
+size 729

@@ -1,11 +1,3 @@
-var pipsPositions = document.getElementById('pips-positions');
-
-noUiSlider.create(pipsPositions, {
-	range: range_all_sliders,
-	start: 0,
-	pips: {
-		mode: 'positions',
-		values: [0,25,50,75,100],
-		density: 4
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a01778b9e4a734a3b61680419779db8c9a8ac2eefe0e767e1b067e0ec85dc7c
+size 226

@@ -1,12 +1,3 @@
-var limitSlider = document.getElementById('slider-limit');
-
-noUiSlider.create(limitSlider, {
-	start: [ 10, 120 ],
-	limit: 40,
-	behaviour: 'drag',
-	connect: true,
-	range: {
-		'min': 0,
-		'max': 100
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:950fcd37150e2c4ca980d88a0b8458e5f77e9743008d785fd38cd1d852a40505
+size 216

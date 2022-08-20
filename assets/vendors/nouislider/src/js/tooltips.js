@@ -1,31 +1,3 @@
-
-	function addTooltip ( handle, handleNumber ) {
-
-		if ( !options.tooltips[handleNumber] ) {
-			return false;
-		}
-
-		return addNodeTo(handle.firstChild, options.cssClasses.tooltip);
-	}
-
-	// The tooltips option is a shorthand for using the 'update' event.
-	function tooltips ( ) {
-
-		// Tooltips are added with options.tooltips in original order.
-		var tips = scope_Handles.map(addTooltip);
-
-		bindEvent('update', function(values, handleNumber, unencoded) {
-
-			if ( !tips[handleNumber] ) {
-				return;
-			}
-
-			var formattedValue = values[handleNumber];
-
-			if ( options.tooltips[handleNumber] !== true ) {
-				formattedValue = options.tooltips[handleNumber].to(unencoded[handleNumber]);
-			}
-
-			tips[handleNumber].innerHTML = formattedValue;
-		});
-	}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8af9c0f559dd707d46ca6cfc9b15f86a2d030442529f9e6de4c4b818e777207
+size 784

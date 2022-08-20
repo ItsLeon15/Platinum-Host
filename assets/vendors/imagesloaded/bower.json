@@ -1,36 +1,3 @@
-{
-  "name": "imagesloaded",
-  "description": "JavaScript is all like _You images done yet or what?_",
-  "main": "imagesloaded.js",
-  "dependencies": {
-    "ev-emitter": "^1.0.0"
-  },
-  "devDependencies": {
-    "jquery": ">=1.9 <4.0",
-    "qunit": "~1.20.0"
-  },
-  "ignore": [
-    "**/.*",
-    "test",
-    "package.json",
-    "composer.json",
-    "node_modules",
-    "bower_components",
-    "tests",
-    "sandbox/",
-    "contributing.md"
-  ],
-  "homepage": "http://imagesloaded.desandro.com",
-  "authors": [
-    "David DeSandro"
-  ],
-  "moduleType": [
-    "amd",
-    "globals",
-    "node"
-  ],
-  "keywords": [
-    "images"
-  ],
-  "license": "MIT"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3f306a6da1fc5ea82516b152a22e3db54a9a62a8909efb36174d7ceb7108b86e
+size 684

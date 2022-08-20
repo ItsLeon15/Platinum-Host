@@ -1,9 +1,3 @@
-var rangeSlider = document.getElementById('slider-range');
-
-noUiSlider.create(rangeSlider, {
-	start: [ 4000 ],
-	range: {
-		'min': [  2000 ],
-		'max': [ 10000 ]
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a9ecd5e2163c6e803e7b8ab79e5b447ad43826326f5e59abc4913f81631b6d
+size 176

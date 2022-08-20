@@ -1,20 +1,3 @@
-import { addFormatToken } from '../format/format';
-import { addRegexToken, matchTimestamp, matchSigned } from '../parse/regex';
-import { addParseToken } from '../parse/token';
-import toInt from '../utils/to-int';
-
-// FORMATTING
-
-addFormatToken('X', 0, 0, 'unix');
-addFormatToken('x', 0, 0, 'valueOf');
-
-// PARSING
-
-addRegexToken('x', matchSigned);
-addRegexToken('X', matchTimestamp);
-addParseToken('X', function (input, array, config) {
-    config._d = new Date(parseFloat(input, 10) * 1000);
-});
-addParseToken('x', function (input, array, config) {
-    config._d = new Date(toInt(input));
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce637803b13852a168faec1b80db74c6c9bacc1a8a723ad21ab96d588e1e19be
+size 614

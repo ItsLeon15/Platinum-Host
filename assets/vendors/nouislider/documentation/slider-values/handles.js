@@ -1,9 +1,3 @@
-var handlesSlider = document.getElementById('slider-handles');
-
-noUiSlider.create(handlesSlider, {
-	start: [ 4000, 8000 ],
-	range: {
-		'min': [  2000 ],
-		'max': [ 10000 ]
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f1f0496b4d430d339a90cee87f81d369d2a75303f730d973247837123aebd18
+size 188

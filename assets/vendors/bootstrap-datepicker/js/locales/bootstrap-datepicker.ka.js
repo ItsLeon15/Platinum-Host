@@ -1,17 +1,3 @@
-/**
- * Georgian translation for bootstrap-datepicker
- * Levan Melikishvili <levani0101@yahoo.com>
- */
-;(function($){
-    $.fn.datepicker.dates['ka'] = {
-        days: ["კვირა", "ორშაბათი", "სამშაბათი", "ოთხშაბათი", "ხუთშაბათი", "პარასკევი", "შაბათი"],
-        daysShort: ["კვი", "ორშ", "სამ", "ოთხ", "ხუთ", "პარ", "შაბ"],
-        daysMin: ["კვ", "ორ", "სა", "ოთ", "ხუ", "პა", "შა"],
-        months: ["იანვარი", "თებერვალი", "მარტი", "აპრილი", "მაისი", "ივნისი", "ივლისი", "აგვისტო", "სექტემბერი", "ოქტომები", "ნოემბერი", "დეკემბერი"],
-        monthsShort: ["იან", "თებ", "მარ", "აპრ", "მაი", "ივნ", "ივლ", "აგვ", "სექ", "ოქტ", "ნოე", "დეკ"],
-        today: "დღეს",
-        clear: "გასუფთავება",
-        weekStart: 1,
-        format: "dd.mm.yyyy"
-    };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:56dc6d3330d8a300166cf41a4ebf3a9c4785ae7567a080264fd3bfcedea5de7a
+size 1236

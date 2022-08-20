@@ -1,17 +1,3 @@
-/**
- * Polish translation for bootstrap-datepicker
- * Robert <rtpm@gazeta.pl>
- */
-;(function($){
-    $.fn.datepicker.dates['pl'] = {
-        days: ["niedziela", "poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota"],
-        daysShort: ["niedz.", "pon.", "wt.", "śr.", "czw.", "piąt.", "sob."],
-        daysMin: ["ndz.", "pn.", "wt.", "śr.", "czw.", "pt.", "sob."],
-        months: ["styczeń", "luty", "marzec", "kwiecień", "maj", "czerwiec", "lipiec", "sierpień", "wrzesień", "październik", "listopad", "grudzień"],
-        monthsShort: ["sty.", "lut.", "mar.", "kwi.", "maj", "cze.", "lip.", "sie.", "wrz.", "paź.", "lis.", "gru."],
-        today: "dzisiaj",
-        weekStart: 1,
-        clear: "wyczyść",
-        format: "dd.mm.yyyy"
-    };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:90a0f1c6beaa7b6251e8e8a037203cc72aee6a4fe5a4d9e98ffbea21109ed67b
+size 801

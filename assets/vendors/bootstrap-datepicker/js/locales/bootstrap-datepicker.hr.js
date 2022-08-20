@@ -1,13 +1,3 @@
-/**
- * Croatian localisation
- */
-;(function($){
-	$.fn.datepicker.dates['hr'] = {
-		days: ["Nedjelja", "Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota"],
-		daysShort: ["Ned", "Pon", "Uto", "Sri", "Čet", "Pet", "Sub"],
-		daysMin: ["Ne", "Po", "Ut", "Sr", "Če", "Pe", "Su"],
-		months: ["Siječanj", "Veljača", "Ožujak", "Travanj", "Svibanj", "Lipanj", "Srpanj", "Kolovoz", "Rujan", "Listopad", "Studeni", "Prosinac"],
-		monthsShort: ["Sij", "Velj", "Ožu", "Tra", "Svi", "Lip", "Srp", "Kol", "Ruj", "Lis", "Stu", "Pro"],
-		today: "Danas"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d7fa9b8e57ecd3977cf5ece96be8c8a80dadf8114e14bff1f24db21ff9e8d6d
+size 586

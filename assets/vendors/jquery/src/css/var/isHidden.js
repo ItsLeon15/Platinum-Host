@@ -1,16 +1,3 @@
-define( [
-	"../../core",
-	"../../selector"
-
-	// css is assumed
-], function( jQuery ) {
-
-	return function( elem, el ) {
-
-		// isHidden might be called from jQuery#filter function;
-		// in that case, element will be second argument
-		elem = el || elem;
-		return jQuery.css( elem, "display" ) === "none" ||
-			!jQuery.contains( elem.ownerDocument, elem );
-	};
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:db20849b0dae9c4b66a781717516d5f7ea9dd8769a65ffeabca571d2c2970af3
+size 378

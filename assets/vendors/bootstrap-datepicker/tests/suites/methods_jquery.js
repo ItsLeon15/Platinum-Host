@@ -1,26 +1,3 @@
-module('Methods (jQuery)', {
-    setup: function(){
-        this.$inputs = $('<input><input>')
-            .datepicker()
-            .appendTo('#qunit-fixture');
-    },
-    teardown: function(){
-        this.$inputs.each(function(){
-            $.data(this, 'datepicker').picker.remove();
-        });
-    }
-});
-
-test('Methods', function(){
-    $.each([
-        'show',
-        'hide',
-        'setValue',
-        'place'
-    ], $.proxy(function(index, value){
-        var returnedObject = this.$inputs.datepicker(value);
-
-        strictEqual(returnedObject, this.$inputs, "is jQuery element");
-        strictEqual(returnedObject.length, 2, "correct length of jQuery elements");
-    }, this));
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:532dbc39fa4327d3dbeb6c5ec145641cafa74e8756157f91f38d72f9c32d3fcd
+size 723

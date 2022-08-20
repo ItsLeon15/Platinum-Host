@@ -1,10 +1,3 @@
-# FullCalendar
-
-A full-sized drag & drop event calendar (jQuery plugin).
-
-- [Project website and demos](http://fullcalendar.io/)
-- [Documentation](http://fullcalendar.io/docs/)
-- [Support](http://fullcalendar.io/support/)
-- [Contributing](CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
-- [License](LICENSE.txt)
+version https://git-lfs.github.com/spec/v1
+oid sha256:21313956801043cd4e3ad2dcbd510828e1387e978660bf5ee7ead46923279a2f
+size 317

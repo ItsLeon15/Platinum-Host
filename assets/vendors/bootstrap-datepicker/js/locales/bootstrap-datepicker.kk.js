@@ -1,15 +1,3 @@
-/**
- * Kazakh translation for bootstrap-datepicker
- * Yerzhan Tolekov <era.tolekov@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['kk'] = {
-		days: ["Жексенбі", "Дүйсенбі", "Сейсенбі", "Сәрсенбі", "Бейсенбі", "Жұма", "Сенбі"],
-		daysShort: ["Жек", "Дүй", "Сей", "Сәр", "Бей", "Жұм", "Сен"],
-		daysMin: ["Жк", "Дс", "Сс", "Ср", "Бс", "Жм", "Сн"],
-		months: ["Қаңтар", "Ақпан", "Наурыз", "Сәуір", "Мамыр", "Маусым", "Шілде", "Тамыз", "Қыркүйек", "Қазан", "Қараша", "Желтоқсан"],
-		monthsShort: ["Қаң", "Ақп", "Нау", "Сәу", "Мам", "Мау", "Шіл", "Там", "Қыр", "Қаз", "Қар", "Жел"],
-		today: "Бүгін",
-		weekStart: 1
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:43e928dad9cc93f00f497011eb09fbd2e0509e17917fa87f4deadee504eb6d36
+size 844

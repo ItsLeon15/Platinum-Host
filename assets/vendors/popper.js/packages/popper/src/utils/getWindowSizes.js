@@ -1,27 +1,3 @@
-import isIE10 from './isIE10';
-
-function getSize(axis, body, html, computedStyle) {
-  return Math.max(
-    body[`offset${axis}`],
-    body[`scroll${axis}`],
-    html[`client${axis}`],
-    html[`offset${axis}`],
-    html[`scroll${axis}`],
-    isIE10()
-      ? html[`offset${axis}`] +
-        computedStyle[`margin${axis === 'Height' ? 'Top' : 'Left'}`] +
-        computedStyle[`margin${axis === 'Height' ? 'Bottom' : 'Right'}`]
-      : 0
-  );
-}
-
-export default function getWindowSizes() {
-  const body = document.body;
-  const html = document.documentElement;
-  const computedStyle = isIE10() && getComputedStyle(html);
-
-  return {
-    height: getSize('Height', body, html, computedStyle),
-    width: getSize('Width', body, html, computedStyle),
-  };
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5332e7084b202e3fbe6fa9cb458f6cf06e4b7f0fc72825a7988574f0d7cae5e9
+size 779

@@ -1,22 +1,3 @@
-var resultElement = document.getElementById('result'),
-	sliders = document.getElementsByClassName('sliders');
-
-for ( var i = 0; i < sliders.length; i++ ) {
-
-	noUiSlider.create(sliders[i], {
-		start: 127,
-		connect: [true, false],
-		orientation: "vertical",
-		range: {
-			'min': 0,
-			'max': 255
-		},
-		format: wNumb({
-			decimals: 0
-		})
-	});
-
-	// Bind the color changing function
-	// to the slide event.
-	sliders[i].noUiSlider.on('slide', setColor);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:41b2a83e62654a7adde1c11cb8ecc953a5be2ca801f7a71bd1d2cb09386044a9
+size 475

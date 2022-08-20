@@ -1,20 +1,3 @@
-define( [
-	"../core",
-	"../event"
-], function( jQuery ) {
-
-// Attach a bunch of functions for handling common AJAX events
-jQuery.each( [
-	"ajaxStart",
-	"ajaxStop",
-	"ajaxComplete",
-	"ajaxError",
-	"ajaxSuccess",
-	"ajaxSend"
-], function( i, type ) {
-	jQuery.fn[ type ] = function( fn ) {
-		return this.on( type, fn );
-	};
-} );
-
-} );
+version https://git-lfs.github.com/spec/v1
+oid sha256:f962a982fa83118f8f943e243b9713b5f67c284c082226c90b08968be457bf20
+size 351

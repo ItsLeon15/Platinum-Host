@@ -1,14 +1,3 @@
-{
-  "name": "jquery.sparkline",
-  "_cacheHeaders": {
-    "ETag": "\"5c79-4df3cf4446f00\"",
-    "Last-Modified": "Sun, 16 Jun 2013 03:19:56 GMT",
-    "Content-Length": "23673",
-    "Content-Type": "text/javascript"
-  },
-  "_release": "e-tag:5c79-4df3",
-  "main": "index.js",
-  "_source": "http://omnipotent.net/jquery.sparkline/2.1.2/jquery.sparkline.js",
-  "_target": "*",
-  "_originalSource": "http://omnipotent.net/jquery.sparkline/2.1.2/jquery.sparkline.js"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6ff7fe2dd4151f31a2bcaa8c3762c0662c7ea90498ce8e968480e307f6421ae9
+size 475

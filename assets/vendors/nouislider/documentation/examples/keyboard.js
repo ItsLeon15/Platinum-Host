@@ -1,19 +1,3 @@
-var handle = slider.querySelector('.noUi-handle');
-
-handle.setAttribute('tabindex', 0);
-
-handle.addEventListener('click', function(){
-	this.focus();
-});
-
-handle.addEventListener('keydown', function( e ) {
-
-	var value = Number( slider.noUiSlider.get() );
-
-	switch ( e.which ) {
-		case 37: slider.noUiSlider.set( value - 10 );
-			break;
-		case 39: slider.noUiSlider.set( value + 10 );
-			break;
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cdb1b2a144bba03fd2bd967b081521e8a77446d0cbc2315217052df7cff3a78
+size 419

@@ -1,3 +1,3 @@
-$.validator.addMethod( "mobileNL", function( value, element ) {
-	return this.optional( element ) || /^((\+|00(\s|\s?\-\s?)?)31(\s|\s?\-\s?)?(\(0\)[\-\s]?)?|0)6((\s|\s?\-\s?)?[0-9]){8}$/.test( value );
-}, "Please specify a valid mobile number" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:25d299f6e28064187445e29cc2322e028fe056e788feec64fefefd04f3cda60e
+size 249

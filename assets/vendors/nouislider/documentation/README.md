@@ -1,18 +1,3 @@
-If you'd like to contribute to the noUiSlider documentation (yes please!), you can run it locally:
-
-On any apache+php setup, clone the project (for example, in the root):
-
-```git clone https://github.com/leongersen/noUiSlider```
-
-Add a `.htaccess` file to send requests to the documentation:
-
-```
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} ^/nouislider
-RewriteRule ^.+$ noUiSlider/documentation/_run/router.php [L]
-```
-
-You can access the documentation at `http://localhost/nouislider/`.
-
-The documentation uses noUiSlider from the `distribute` folder, so you can test any changes you've made to the main source in the documentation after running `grunt`.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d4eb3b6d644827d52138856c30f7b225fccf447b70d4f0b59426834a240fd32
+size 711

@@ -1,11 +1,3 @@
-var pipsValues = document.getElementById('pips-values');
-
-noUiSlider.create(pipsValues, {
-	range: range_all_sliders,
-	start: 0,
-	pips: {
-		mode: 'values',
-		values: [50, 552, 2251, 3200, 5000, 7080, 9000],
-		density: 4
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:bdf6139548f0d87d2e842cfba6dcdd5886a69aeadf1ab2a78b046ff5d509e524
+size 237

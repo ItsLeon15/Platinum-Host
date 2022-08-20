@@ -1,20 +1,3 @@
-var inputNumber = document.getElementById('input-number');
-
-html5Slider.noUiSlider.on('update', function( values, handle ) {
-
-	var value = values[handle];
-
-	if ( handle ) {
-		inputNumber.value = value;
-	} else {
-		select.value = Math.round(value);
-	}
-});
-
-select.addEventListener('change', function(){
-	html5Slider.noUiSlider.set([this.value, null]);
-});
-
-inputNumber.addEventListener('change', function(){
-	html5Slider.noUiSlider.set([null, this.value]);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:a978e4a48ab3ed89c9b85320040339088535ea2a03cc461e4fa634767e626eb8
+size 480

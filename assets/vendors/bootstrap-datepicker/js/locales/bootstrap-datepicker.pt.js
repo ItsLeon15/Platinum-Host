@@ -1,18 +1,3 @@
-/**
- * Portuguese translation for bootstrap-datepicker
- * Original code: Cauan Cabral <cauan@radig.com.br>
- * Tiago Melo <tiago.blackcode@gmail.com>
- */
-;(function($){
-	$.fn.datepicker.dates['pt'] = {
-		days: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"],
-		daysShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
-		daysMin: ["Do", "Se", "Te", "Qu", "Qu", "Se", "Sa"],
-		months: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"],
-		monthsShort: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
-		today: "Hoje",
-		monthsTitle: "Meses",
-		clear: "Limpar",
-		format: "dd/mm/yyyy"
-	};
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:900c4fc17eb84155b5bbb419d5b97f0b0c413c2b5716dd5e1bdd2fbee58bd331
+size 759

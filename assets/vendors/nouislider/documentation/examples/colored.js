@@ -1,17 +1,3 @@
-var slider = document.getElementById('slider-color');
-
-noUiSlider.create(slider, {
-	start: [ 4000, 8000, 12000, 16000 ],
-	connect: [false, true, true, true, true],
-	range: {
-		'min': [  2000 ],
-		'max': [ 20000 ]
-	}
-});
-
-var connect = slider.querySelectorAll('.noUi-connect');
-var classes = ['c-1-color', 'c-2-color', 'c-3-color', 'c-4-color', 'c-5-color'];
-
-for ( var i = 0; i < connect.length; i++ ) {
-    connect[i].classList.add(classes[i]);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46e9e4109ad9ccf37a2163ddfe1f5c3bdffb35ef6dbe65b816b9126e6efe8873
+size 465

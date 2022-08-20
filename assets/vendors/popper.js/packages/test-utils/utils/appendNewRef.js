@@ -1,10 +1,3 @@
-export default function appendNewRef(id, text, container) {
-  const jasmineWrapper = document.getElementById('jasmineWrapper');
-
-  const ref = document.createElement('div');
-  ref.id = id;
-  ref.className = 'ref';
-  ref.textContent = text || 'reference';
-  (container || jasmineWrapper).appendChild(ref);
-  return ref;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8ad3406d3f1bda4f929b6a8b549336c1a157d82cd722102e3cc1bce54ade32b
+size 331

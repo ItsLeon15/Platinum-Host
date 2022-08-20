@@ -1,16 +1,3 @@
-/**
- * Latvian translation for bootstrap-datepicker
- * Artis Avotins <artis@apit.lv>
- */
-
-;(function($){
-    $.fn.datepicker.dates['lv'] = {
-        days: ["Svētdiena", "Pirmdiena", "Otrdiena", "Trešdiena", "Ceturtdiena", "Piektdiena", "Sestdiena"],
-        daysShort: ["Sv", "P", "O", "T", "C", "Pk", "S"],
-        daysMin: ["Sv", "Pr", "Ot", "Tr", "Ce", "Pk", "Se"],
-        months: ["Janvāris", "Februāris", "Marts", "Aprīlis", "Maijs", "Jūnijs", "Jūlijs", "Augusts", "Septembris", "Oktobris", "Novembris", "Decembris"],
-        monthsShort: ["Jan", "Feb", "Mar", "Apr", "Mai", "Jūn", "Jūl", "Aug", "Sep", "Okt", "Nov", "Dec"],
-        today: "Šodien",
-        weekStart: 1
-    };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:d82e573621067b43482523394375bc5bd0e021fcf7a62995631cc214ebbf2dd4
+size 722

@@ -1,19 +1,3 @@
-/**
- * Lithuanian translation for bootstrap-datepicker
- * Šarūnas Gliebus <ssharunas@yahoo.co.uk>
- */
-
-;(function($){
-    $.fn.datepicker.dates['lt'] = {
-        days: ["Sekmadienis", "Pirmadienis", "Antradienis", "Trečiadienis", "Ketvirtadienis", "Penktadienis", "Šeštadienis"],
-        daysShort: ["S", "Pr", "A", "T", "K", "Pn", "Š"],
-        daysMin: ["Sk", "Pr", "An", "Tr", "Ke", "Pn", "Št"],
-        months: ["Sausis", "Vasaris", "Kovas", "Balandis", "Gegužė", "Birželis", "Liepa", "Rugpjūtis", "Rugsėjis", "Spalis", "Lapkritis", "Gruodis"],
-        monthsShort: ["Sau", "Vas", "Kov", "Bal", "Geg", "Bir", "Lie", "Rugp", "Rugs", "Spa", "Lap", "Gru"],
-        today: "Šiandien",
-        monthsTitle:"Mėnesiai",
-        clear:"Išvalyti",
-        weekStart: 1,
-        format:"yyyy-mm-dd"
-    };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e1189e65df8de6463d5887cd040943d0461f7e4b629e79c166f305d0846f185
+size 846

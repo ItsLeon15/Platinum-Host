@@ -1,21 +1,3 @@
-var toggleSlider = document.getElementById('slider-toggle');
-
-noUiSlider.create(toggleSlider, {
-	orientation: "vertical",
-	start: 0,
-	range: {
-		'min': [0, 1],
-		'max': 1
-	},
-	format: wNumb({
-		decimals: 0
-	})
-})
-
-toggleSlider.noUiSlider.on('update', function( values, handle ){
-	if ( values[handle] === '1' ) {
-		toggleSlider.classList.add('off');
-	} else {
-		toggleSlider.classList.remove('off');
-	}
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:787033512d4e32b62ba9a32f6f6378f94cc62cffe487de1c3a66b7286ad59990
+size 427

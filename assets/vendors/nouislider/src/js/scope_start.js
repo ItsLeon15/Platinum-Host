@@ -1,23 +1,3 @@
-
-function closure ( target, options, originalOptions ){
-
-	var actions = getActions();
-	var supportsTouchActionNone = getSupportsTouchActionNone();
-	var supportsPassive = supportsTouchActionNone && getSupportsPassive();
-
-	// All variables local to 'closure' are prefixed with 'scope_'
-	var scope_Target = target;
-	var scope_Locations = [];
-	var scope_Base;
-	var scope_Handles;
-	var scope_HandleNumbers = [];
-	var scope_ActiveHandlesCount = 0;
-	var scope_Connects;
-	var scope_Spectrum = options.spectrum;
-	var scope_Values = [];
-	var scope_Events = {};
-	var scope_Self;
-	var scope_Pips;
-	var scope_Document = target.ownerDocument;
-	var scope_DocumentElement = scope_Document.documentElement;
-	var scope_Body = scope_Document.body;
+version https://git-lfs.github.com/spec/v1
+oid sha256:afcb0e7ece83ee0744c4d704567b876e77d2ce5003dd284ff288810d9779fc76
+size 752

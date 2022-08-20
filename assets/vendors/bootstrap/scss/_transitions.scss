@@ -1,36 +1,3 @@
-// stylelint-disable selector-no-qualifying-type
-
-.fade {
-  opacity: 0;
-  @include transition($transition-fade);
-
-  &.show {
-    opacity: 1;
-  }
-}
-
-.collapse {
-  display: none;
-  &.show {
-    display: block;
-  }
-}
-
-tr {
-  &.collapse.show {
-    display: table-row;
-  }
-}
-
-tbody {
-  &.collapse.show {
-    display: table-row-group;
-  }
-}
-
-.collapsing {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  @include transition($transition-collapse);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5483b6ba7d4029833db6e730d31b8796d646bdbb582bfad51fb700046a32df24
+size 488

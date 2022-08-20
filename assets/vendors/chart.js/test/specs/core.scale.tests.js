@@ -1,22 +1,3 @@
-describe('Core.scale', function() {
-	describe('auto', jasmine.specsFromFixtures('core.scale'));
-
-	it('should provide default scale label options', function() {
-		expect(Chart.defaults.scale.scaleLabel).toEqual({
-			// display property
-			display: false,
-
-			// actual label
-			labelString: '',
-
-			// actual label
-			lineHeight: 1.2,
-
-			// top/bottom padding
-			padding: {
-				top: 4,
-				bottom: 4
-			}
-		});
-	});
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e605e518149f1de0171f9bc8733cc59265d3a9f1ddcc07d9feb965752c7add7
+size 442

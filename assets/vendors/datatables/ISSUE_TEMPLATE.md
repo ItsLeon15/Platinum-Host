@@ -1,3 +1,3 @@
-Please post support requests and questions in the DataTables forums at https://datatables.net/forums. Support requests posted here will be closed. This allows all questions to be located in a single, searchable, location.
-
-When you post your question in the DataTables forums, please ensure that you include a link to the page showing the issue so it can be debugged.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c4debb5f8a53634239ae9b4db5ea8b2f9c3836984885673f2aafad898674618
+size 371

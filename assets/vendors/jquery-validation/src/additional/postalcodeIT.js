@@ -1,4 +1,3 @@
-/* Matches Italian postcode (CAP) */
-$.validator.addMethod( "postalcodeIT", function( value, element ) {
-	return this.optional( element ) || /^\d{5}$/.test( value );
-}, "Please specify a valid postal code" );
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c8a7f8ffd50f534ac2e82e6feebf7eb3c4051d3691dbafdadebfd9ebdd52385
+size 213

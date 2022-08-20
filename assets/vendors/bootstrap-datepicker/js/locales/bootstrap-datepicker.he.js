@@ -1,15 +1,3 @@
-/**
- * Hebrew translation for bootstrap-datepicker
- * Sagie Maoz <sagie@maoz.info>
- */
-;(function($){
-  $.fn.datepicker.dates['he'] = {
-      days: ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שבת", "ראשון"],
-      daysShort: ["א", "ב", "ג", "ד", "ה", "ו", "ש", "א"],
-      daysMin: ["א", "ב", "ג", "ד", "ה", "ו", "ש", "א"],
-      months: ["ינואר", "פברואר", "מרץ", "אפריל", "מאי", "יוני", "יולי", "אוגוסט", "ספטמבר", "אוקטובר", "נובמבר", "דצמבר"],
-      monthsShort: ["ינו", "פבר", "מרץ", "אפר", "מאי", "יונ", "יול", "אוג", "ספט", "אוק", "נוב", "דצמ"],
-      today: "היום",
-      rtl: true
-  };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:3553e90f8401aac2d33abb6b0fe7b2ed2599ba5eee50d9ce55e1cf1f7f7ba53c
+size 782

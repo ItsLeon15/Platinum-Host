@@ -1,21 +1,3 @@
-function setLockedValues ( ) {
-	lockedValues = [
-		Number(slider1.noUiSlider.get()),
-		Number(slider2.noUiSlider.get())
-	];
-}
-
-slider1.noUiSlider.on('change', setLockedValues);
-slider2.noUiSlider.on('change', setLockedValues);
-
-// The value will be send to the other slider,
-// using a custom function as the serialization
-// method. The function uses the global 'lockedState'
-// variable to decide whether the other slider is updated.
-slider1.noUiSlider.on('slide', function( values, handle ){
-	crossUpdate(values[handle], slider2);
-});
-
-slider2.noUiSlider.on('slide', function( values, handle ){
-	crossUpdate(values[handle], slider1);
-});
+version https://git-lfs.github.com/spec/v1
+oid sha256:d37a3c3264d84b2d51577e86b45c873f83bbb263c40aa0fb777bd9052ef46e10
+size 662

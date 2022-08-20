@@ -1,15 +1,3 @@
-/**
- * Macedonian translation for bootstrap-datepicker
- * Marko Aleksic <psybaron@gmail.com>
- */
-;(function($){
-    $.fn.datepicker.dates['mk'] = {
-        days: ["Недела", "Понеделник", "Вторник", "Среда", "Четврток", "Петок", "Сабота"],
-        daysShort: ["Нед", "Пон", "Вто", "Сре", "Чет", "Пет", "Саб"],
-        daysMin: ["Не", "По", "Вт", "Ср", "Че", "Пе", "Са"],
-        months: ["Јануари", "Февруари", "Март", "Април", "Мај", "Јуни", "Јули", "Август", "Септември", "Октомври", "Ноември", "Декември"],
-        monthsShort: ["Јан", "Фев", "Мар", "Апр", "Мај", "Јун", "Јул", "Авг", "Сеп", "Окт", "Ное", "Дек"],
-        today: "Денес",
-        format: "dd.mm.yyyy"
-    };
-}(jQuery));
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a85859856ca7291c4351bfd3f4dd60d311b784bc566912bc051ac2302e226b9
+size 899

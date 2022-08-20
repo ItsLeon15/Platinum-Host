@@ -1,9 +1,3 @@
-export var YEAR = 0;
-export var MONTH = 1;
-export var DATE = 2;
-export var HOUR = 3;
-export var MINUTE = 4;
-export var SECOND = 5;
-export var MILLISECOND = 6;
-export var WEEK = 7;
-export var WEEKDAY = 8;
+version https://git-lfs.github.com/spec/v1
+oid sha256:a87bf7e011497f2f04714aff8b62a49849c46b4848f4195e5dfb90598e08913b
+size 213

@@ -1,0 +1,182 @@
+/*
+* @version: 1.0
+* @author: ItsLeon15
+* @url: https://github.com/ItsLeon15/
+* @description: Custom CSS for version theme
+* @license: MIT
+*/
+
+/*--------------------------------------
+*                                      *
+*   Default Value for Version Page     *
+*                                      *
+---------------------------------------*/
+
+.col-sm-4 {
+    float: left;
+}
+.col-sm-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.pricing-box img.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 5px;
+}
+.h4, .h5, .h6, h4, h5, h6 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.row-subtitle {
+    margin-bottom: 0px;
+}
+.row-subtitle, .row-title {
+    background-color: #f8f9fe;
+    margin-bottom: 0px;
+}
+
+/*--------------------------------------
+*                                      *
+*   Values for Version Page Min-Max    *
+*                                      *
+---------------------------------------*/
+
+@media only screen /* iPhone X */
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+    .col-sm-4 {
+        left: 8%;
+        top: 22px;
+    }
+    .pricing-box {
+        margin-top: 20px;
+    }
+    .button-65 {
+        width: 110%;
+    }
+}
+
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-height: 667px) 
+and (-webkit-device-pixel-ratio: 2) {
+    .col-sm-4 {
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+        left: 8%;
+    }
+    .col-sm-4 {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    .button-65 {
+        width: 100%;
+    }
+    .pricing-box {
+        left: 10px;
+    }
+}
+
+@media only screen /* iPhone 8 Plus */
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+    .col-sm-4 {
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+        left: 12%;
+        left: 20px;
+    }
+    .col-sm-4 {
+        width: 100%;
+        margin-bottom: -20px;
+    }
+    .button-65 {
+        width: 100%;
+    }
+    .pricing-box {
+        padding: 37px 50px 30px 53px;
+        right:30px;
+    }
+}
+
+@media only screen  /* iPad 3, 4 and Pro 9.7" */
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .col-sm-4 {
+        width: 33.333333%;
+        left: -1%;
+        top: 0px;
+    }
+    .pricing-box {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen /* iPhone 5/SE */
+    and (min-device-width: 320px)
+    and (max-device-height: 568px)
+    and (-webkit-device-pixel-ratio: 2) {
+    .col-sm-4 {
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+        left: 15px;
+    }
+    .pricing-box {
+        padding: 40px 28px;
+        width: 109%;
+    }
+    .button-65 {
+        width: 100%;
+    }
+    .col-md-12 {
+        left: -10px;
+    }
+}
+
+@media only screen /* iPhone 12 Pro */
+    and (min-device-width: 390px)
+    and (max-device-height: 844px)
+    and (-webkit-device-pixel-ratio: 3) {
+    .col-sm-4 {
+        width: 100%;
+        top: 20px;
+    }
+    .pricing-box {
+        margin-top: 20px;
+        left: 34px;
+    }
+    .button-65 {
+        width: 110%;
+    }
+}
+
+@media only screen /* iPhone XR */
+    and (min-device-width : 414px)
+    and (max-device-height : 896px)
+    and (-webkit-device-pixel-ratio : 2) {
+    .col-sm-4 {
+        width: 100%;
+        left: 34px;
+        top: 10px;
+    }
+    .pricing-box {
+        margin-top: 20px;
+    }
+    .button-65 {
+        width: 100%;
+    }
+    .pricing-box {
+        padding: 37px 65px 40px 65px;
+    }
+}

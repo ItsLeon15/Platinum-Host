@@ -2156,8 +2156,6 @@ svg.logo text {
 .pricing-box:hover .pricing-content,
 .pricing-box:focus .pricing-content {
     background-color: #fdfdfd;
-    -webkit-box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
 }
 
 .pricing-box:hover .pricing-content .pricing-icon,

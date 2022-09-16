@@ -62,7 +62,7 @@
     }
 }
 
-@media only screen 
+@media only screen
 and (min-device-width: 375px) 
 and (max-device-height: 667px) 
 and (-webkit-device-pixel-ratio: 2) {
@@ -178,5 +178,16 @@ and (-webkit-device-pixel-ratio: 2) {
     }
     .pricing-box {
         padding: 37px 65px 40px 65px;
+    }
+}
+
+/* Add a media element for iPhone SE */
+
+@media only screen /* iPhone SE */
+    and (min-device-width: 320px)
+    and (max-device-height: 568px)
+    and (-webkit-device-pixel-ratio: 2) {
+    .pricing-box {
+        text-align: center;
     }
 }

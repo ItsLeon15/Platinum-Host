@@ -1609,7 +1609,7 @@ svg.logo text {
 .service-box {
     border-radius: 10px;
     border: 0;
-    background-color: #fcfcfd;
+    background-color: #f1f1f1;
     position: relative;
     overflow: hidden;
     padding-top: 38px;
@@ -3683,8 +3683,8 @@ svg.logo text {
 
 #more-features .mfeature-box {
     border-radius: 4px;
-    border: solid 1px #f1efef;
-    background-color: #ffffff;
+    border: solid 1px #f1f1f1;
+    background-color: #f1f1f1;
     padding: 37px 59px 40px 49px;
     /* text-align: center; */
     margin-top: 40px;
@@ -6995,8 +6995,8 @@ a.text-dark:focus {
 
 .pricing-box {
     border-radius: 4px;
-    border: solid 1px #f1efef;
-    background-color: #ffffff;
+    border: solid 1px #f1f1f1;
+    background-color: #f1f1f1;
     padding: 37px 59px 40px 49px;
     /* text-align: center; */
     margin-top: 40px;

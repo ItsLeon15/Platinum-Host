@@ -54,7 +54,76 @@
         .pricing-box, #more-features .mfeature-box {
             box-shadow: 20px 20px 20px #04030c;
         }
+        .row {
+            margin-right: -45px;
+            margin-left: -45px;
+        }
+        .image-logo {
+            width: 245px;
+        }
+        
+        #london-indicator {
+            left: 48.15%;
+            margin-top: 9.3%;
+            position: absolute;
+        }
+        #los-angeles-indicator {
+            left: 26.8%;
+            margin-top: 13.1%;
+            position: absolute;
+        }
+        .location-indicator {
+            content: " ";
+            width: 12px;
+            height: 12px;
+            position: relative;
+            background-color: #FD2F42;
+            box-shadow: 0 0 0 5px rgb(253 47 66 / 32%);
+            border-radius: 100px;
+            position: relative;
+        }
+        @media (max-width: 480px) {
+            #footer .email {
+                padding: 0px 0px 15px 0px;
+                margin-bottom: 5px;
+            }
+        }
+        @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+            .row-subtitle-header:after {
+                left: 29% !important;
+            }
+            .container {
+                width: 305px !important;
+            }
+            .row {
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+            .image-logo {
+                width: 200px;
+                padding-top: 10px;
+            }
+            .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+                padding-left: 0px;
+            }
+            .pricing-content {
+                margin-right: -40px;
+                margin-left: -40px;
+            }
+            .location-map {
+                width: 100%;
+            }
+            #london-indicator {
+                left: 45.65%;
+                margin-top: 13%;
+            }
+            #los-angeles-indicator {
+                left: 12.8%;
+                margin-top: 19%;
+            }
+        }
     </style>
+    
     <!--End of Tawk.to Script-->
 </head>
 <body>
@@ -83,7 +152,7 @@
                                         <span class="icon-bar"></span>
                                 </button>
 
-                                <img style="width: 245px;" class="image-logo" src="./images/Platinum Host Logo.png" href="https://platinumhost.xyz/" alt="Platinum Host">
+                                <img class="image-logo" src="./images/Platinum Host Logo.png" href="https://platinumhost.xyz/" alt="Platinum Host">
                                 <div class="logo logo-active-null"></div>
 
                                 </div>
@@ -225,7 +294,7 @@
             </nav>
             <div id="top-content" class="container-fluid">
                 <div class="container" style="width: 1250px;">
-                    <div class="row" style="margin-right: -45px; margin-left: -45px">
+                    <div class="row">
                         <div class="col-md-6">
                             <div id="main-slider">
                                 <div class="slide">
@@ -414,28 +483,6 @@
                 </div>
             </div>
         </div><br /><br /><br />
-        <style>
-            #london-indicator {
-                left: 48.15%;
-                margin-top: 9.3%;
-                position: absolute;
-            }
-            #los-angeles-indicator {
-                left: 26.8%;
-                margin-top: 13.1%;
-                position: absolute;
-            }
-            .location-indicator {
-                content: " ";
-                width: 12px;
-                height: 12px;
-                position: relative;
-                background-color: #FD2F42;
-                box-shadow: 0 0 0 5px rgb(253 47 66 / 32%);
-                border-radius: 100px;
-                position: relative;
-            }
-        </style>
         <div class="container-lg animate__animated animate__fadeIn" data-aos="fade-up">
             <div id="london-indicator" class="location-indicator"></div>
             <div id="los-angeles-indicator" class="location-indicator"></div>

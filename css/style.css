@@ -128,9 +128,28 @@ input[type="submit"] {
     position: absolute;
     content: "";
     width: 156px;
-    height: 2px;
+    height: 4px;
     background-color: #D9E3F2;
     left: 50%;
+    margin-left: -78px;
+    bottom: -15px;
+}
+.row-subtitle-header {
+    position: relative;
+    text-align: center;
+    font-size: 19px;
+    color: #7D8EA8;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.row-subtitle-header:after {
+    position: absolute;
+    content: "";
+    width: 164px;
+    height: 2px;
+    background-color: #D9E3F2;
+    left: 14%;
     margin-left: -78px;
     bottom: -15px;
 }
@@ -1245,7 +1264,6 @@ svg.logo text {
 
 #header-holder.main-header .header-graphic {
     width: 100%;
-    max-width: 520px;
     opacity: 1;
 }
 
@@ -1924,6 +1942,7 @@ svg.logo text {
 
 .pricing-box .pricing-content .pricing-details {
     text-align: center;
+    margin-top: -25px;
 }
 
 .pricing-box .pricing-content .pricing-details ul {
@@ -1972,7 +1991,7 @@ svg.logo text {
     font-size: 14px;
     color: #777493;
     padding: 25px 0;
-    line-height: 28px;
+    line-height: 35px;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -3748,7 +3767,7 @@ svg.logo text {
     transition: all 0.3s ease;
 }
 
-#more-features .mfeature-box:hover {
+/* #more-features .mfeature-box:hover {
     background-color: #3195ff;
     border: 1px solid #eeeef4;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -3778,7 +3797,7 @@ svg.logo text {
 
 #more-features .mfeature-box:hover .mfeature-details {
     color: #fff;
-}
+} */
 /*------------------------------------------------------------------
 12. Footer Section Styles
 -------------------------------------------------------------------*/
@@ -6935,7 +6954,7 @@ svg.logo text {
 }
 
 .text-dark {
-    color: #000000 !important;
+    color: #000000;
 }
 
 a.text-dark:hover,
@@ -7035,10 +7054,10 @@ a.text-dark:focus {
 
 /* .pricing-box img {
   margin-bottom: 37px;
-} */
+}
 .pricing-list-background, #header-holder {
     background-color: #f8f9fe;
-}
+} */
 .pricing-box .pricing-list {
   list-style: none;
   padding-left: 0;

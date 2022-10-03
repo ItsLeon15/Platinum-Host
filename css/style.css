@@ -1958,7 +1958,7 @@ svg.logo text {
 
 .pricing-box .pricing-content .pricing-details p {
     font-size: 14px;
-    color: #777493;
+    color: #ffffff;
     padding: 25px 0;
     line-height: 35px;
     -webkit-transition: all 0.3s ease;
@@ -2143,7 +2143,7 @@ svg.logo text {
 
 .pricing-box:hover .pricing-content,
 .pricing-box:focus .pricing-content {
-    background-color: #fdfdfd;
+    background-color: #201d1e;
 }
 
 .pricing-box:hover .pricing-content .pricing-icon,
@@ -2152,10 +2152,10 @@ svg.logo text {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
 }
 
-.pricing-box:hover .pricing-content .pricing-details p,
+/* .pricing-box:hover .pricing-content .pricing-details p,
 .pricing-box:focus .pricing-content .pricing-details p {
-    color: #3f3d59;
-}
+    color: #ffffff;
+} */
 
 .pricing-box:hover .pricing-content .pricing-link a,
 .pricing-box:focus .pricing-content .pricing-link a {
@@ -2941,7 +2941,7 @@ svg.logo text {
 }
 
 .pricing-box.pricing-unity .pricing-content .pricing-price {
-    color: #2A4968;
+    color: #05d9ff;
 }
 
 .pricing-box.pricing-unity .pricing-content .pricing-link {
@@ -6995,8 +6995,8 @@ a.text-dark:focus {
 
 .pricing-box {
     border-radius: 4px;
-    border: solid 1px #f1f1f1;
-    background-color: #f1f1f1;
+    border: solid 1px #201d1e;
+    background-color: #201d1e;
     padding: 37px 59px 40px 49px;
     /* text-align: center; */
     margin-top: 40px;

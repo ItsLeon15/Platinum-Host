@@ -1108,6 +1108,36 @@ svg.logo text {
     }
 }
 
+/* Media for iPhone XR */
+@media only screen and (max-width: 414px) {
+    .container {
+        width: 310px !important;
+    }
+    .image-logo {
+        padding-top: 15px !important;
+    }
+    .row-subtitle-header:after {
+        left: 23% !important;
+    }
+    .location-map {
+        width: 100% !important;
+    }
+    #los-angeles-indicator {
+        left: 12.8% !important;
+        margin-top: 19.1% !important;
+    }
+    #london-indicator {
+        left: 46.15% !important;
+        margin-top: 13.3% !important;
+    }
+    .row-server-plans {
+        margin-left: -40px !important;
+    }
+    /* Get style in container, row, col-xs12 */
+    .container .row .col-xs-12 {
+        width: 50% !important;
+    }
+}
 #header-holder.main-header #top-content .noti-holder .noti {
     position: relative;
     display: inline-block;

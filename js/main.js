@@ -2,7 +2,7 @@
 
 async function myFunction(element) {
     var copyText = document.getElementById("coupon-button");
-    if (copyText.innerHTML === "<strong>SUMMER10</strong>") {
+    if (copyText.innerHTML === "<strong>LA45OFF</strong>") {
         var $temp = $("<input>");
         $("body").append($temp);
         $temp.val($(element).text()).select();
@@ -10,9 +10,9 @@ async function myFunction(element) {
         $temp.remove();
         copyText.innerHTML = "<strong>Copied to clipboard</strong>";
         await sleep(1500);
-        copyText.innerHTML = "<strong>SUMMER10</strong>";
+        copyText.innerHTML = "<strong>LA45OFF</strong>";
     } else {
-        copyText.innerHTML = "<strong>SUMMER10</strong>";
+        copyText.innerHTML = "<strong>LA45OFF</strong>";
     }
 }
 function sleep(ms) {

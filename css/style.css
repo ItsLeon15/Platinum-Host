@@ -1138,6 +1138,42 @@ svg.logo text {
         width: 50% !important;
     }
 }
+
+/* Media for iPad Pro */
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 932px !important;
+    }
+    .pricing-box {
+        padding: 35px 30px 40px 30px !important;
+    }
+    .location-map {
+        width: 90% !important;
+    }
+    #los-angeles-indicator {
+        left: 14.9% !important;
+        margin-top: 19.1% !important;
+    }
+    #london-indicator {
+        left: 47.25% !important;
+        margin-top: 13.6% !important;
+    }
+    .service-box .service-details p {
+        font-size: 13.5px !important;
+    }
+    .container .row .col-sm-12 #service-box-background-4 {
+        padding-bottom: 18px !important;
+    }
+    .container .row .col-sm-12 p {
+        font-size: 13.46px !important;
+    }
+    .image-logo {
+        width: 195px !important;
+    }
+    .row-subtitle-header:after {
+        left: 17% !important;
+    }
+}
 #header-holder.main-header #top-content .noti-holder .noti {
     position: relative;
     display: inline-block;

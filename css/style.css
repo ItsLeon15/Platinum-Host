@@ -1083,6 +1083,13 @@ svg.logo text {
     text-align: left;
 }
 
+/* Media screen for iPhone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    #header-holder.main-header #top-content {
+        padding-top: 0px
+    }
+}
+
 @media (min-width: 0px) and (max-width: 500px) {
     #header-holder.main-header .header-graphic {
         display: none;
@@ -1604,6 +1611,12 @@ svg.logo text {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #201d1e;
+}
+/* Create a media screen for iPhone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    #services {
+        padding-top: 0px;
+    }
 }
 
 .service-box {

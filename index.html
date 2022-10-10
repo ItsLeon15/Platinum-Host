@@ -21,8 +21,7 @@
     <link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-995P0ZHMLL"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-221086010-1"></script>
 
     <link rel="manifest" href="manifest/site.webmanifest">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -40,13 +39,6 @@
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-995P0ZHMLL');
-      </script>
     <style>
         body, #services, #pricing, #more-features {
             background: #0f0c29;  /* fallback for old browsers */
@@ -137,9 +129,9 @@
 <body>
     <div id="alert_area"> <!-- Custom.css -->
         <div class="wrapper"> 
-            <p>45% OFF <span>First Invoice for any </span>Los Angeles VPS Server!</p>
+            <p>10% OFF <span>First Invoice for any </span>VPS Servers!</p>
             <p>Code at checkout:
-                 <button type="button" class="button coupon-button-test" id="coupon-button"  onclick="myFunction('#coupon-button')"><strong>LA45OFF</strong></button> <!-- Main.js -->
+                 <button type="button" class="button coupon-button-test" id="coupon-button"  onclick="myFunction('#coupon-button')"><strong>SUMMER10</strong></button> <!-- Main.js -->
             </p>
         </div>
     </div>
@@ -591,12 +583,271 @@
             </div>
         </div>
     </section>
+
+    
+    <div id="comparison" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row-title" id="server-plans-1" style="padding-top: 80px;">Comparison</div>
+                    <div class="row-subtitle">Take a look at our comparison with other companies</div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .table {
+                border-collapse: collapse;
+                width: 100%;
+                border: 1px solid #ddd;
+                font-size: 18px;
+            }
+            .table th, .table td {
+                text-align: left;
+                padding: 16px;
+            }
+            .table tr {
+                border-bottom: 1px solid #ddd;
+            }
+            .table .yes {
+                background: url('https://buyvm.net/assets/img/compare-yes.png') no-repeat;
+                height: 16px;
+                float: left;
+                padding-left: 20px;
+                line-height: 16px;
+                margin-top: 5px;
+            }
+            .table .blue {
+                color: #05d9ff !important;
+            }
+            .table .no {
+                background: url('https://buyvm.net/assets/img/compare-no.png') no-repeat;
+                height: 16px;
+                float: left;
+                padding-left: 20px;
+                line-height: 16px;
+                margin-top: 5px;
+            }
+            .table tr td:first-child {
+                color: #fff;
+                font-size: 22px;
+                font-weight: 600;
+                width: 300px;
+            }
+            .table {
+                border-radius: 4px;
+                background-color: #37376ccc;
+                padding: 37px 59px 40px 49px;
+                text-align: center;
+                margin-bottom: 40px;
+                -webkit-transition: all 1s;
+                -moz-transition: all 1s;
+                -ms-transition: all 1s;
+                -o-transition: all 1s;
+                transition: all 1s;
+                box-shadow: 20px 20px 20px #12121fcc;
+            }
+        </style>
+        <div class="container">
+            <style>
+                .vendortable {
+                    border-collapse: collapse;
+                    width: 100%;
+                    border-spacing: 0;
+                    border-collapse: separate;
+                    border-radius: 18px;
+                    background-color: #37376ccc;
+                }
+                
+                table {
+                    border-collapse: collapse;
+                    border-spacing: 0;
+                }
+                table {
+                    display: table;
+                    border-collapse: separate;
+                    box-sizing: border-box;
+                    text-indent: initial;
+                    border-spacing: 2px;
+                    border-color: #8282ab;
+                }
+                .vendortable thead {
+                    font-weight: 400;
+                    font-size: 15px;
+                    border-right: solid 1px #37376ccc;
+                }
+                tr {
+                    display: table-row;
+                }
+                th {
+                    display: table-cell;
+                }
+                .vendortable thead th {
+                    height: 42px;
+                    line-height: 46px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #ffffff;
+                }
+                .vendortable img.logo {
+                    display: inline;
+                    margin: auto;
+                    vertical-align: middle;
+                    float: none;
+                    margin-right: 50px;
+                }
+                tbody {
+                    display: table-row-group;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    font-size: 100%;
+                    font: inherit;
+                    vertical-align: baseline;
+                }
+                .logo {
+                    float: left;
+                    margin-top: 32px;
+                }
+                .vendortable tbody tr td:first-child {
+                    color: #fff;
+                    text-align: center;
+                    font-size: 20px;
+                    font-weight: 700;
+                    width: 300px;
+                }
+                
+                .vendortable tbody tr td {
+                    padding: 25px;
+                    vertical-align: middle;
+                    width: 160px;
+                    border-top: solid 1px #8282ab;
+                }
+                body {
+                    color: #797c80;
+                }
+                tfoot {
+                    display: table-footer-group;
+                    vertical-align: middle;
+                    border-color: inherit;
+                }
+                .vendortable tfoot tr td {
+                    border-top: solid 1px #8282ab;
+                    padding: 20px;
+                    vertical-align: middle;
+                }
+                .vendortable tfoot tr.order td {
+                    background: #282b30;
+                }
+                .vendortable tfoot tr td:first-child {
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 400;
+                    width: 300px;
+                }
+                .vendortable tbody tr td:first-child + td {
+                    color: #05d9ff;
+                    font-weight: 600;
+                }
+                .fas.fa-times {
+                    color: #d60e0e;
+                }
+                .fas.fa-check {
+                    color: #51ae59;
+                }
+            </style>
+            <table class="vendortable">
+				<thead>
+					<tr><th></th>
+					<th><img src="./images/ph logo send mod 2-01.png" class="logo" style="width: 204px; margin-right: -45px; padding-right: 25px;"></th>
+					<th><img src="https://www.cloudage.co.in/wp-content/uploads/2020/12/aw.png" class="logo" style="width: 100px; margin-left: -15px; margin-top: 5px;"></th>
+					<th><img src="https://deplexhost.com/assets/images/artwork/logoHorizontal.png" class="logo" style="width: 120px;"></th>
+					<th><img src="https://autoize.com/wp-content/uploads/2017/02/linode-logo.png" class="logo" style="width: 100px;"></th>
+					<th><img src="./images/Vultr_logo_high_res.png" class="logo" style="width: 100px;"></th>
+				</tr></thead>
+				<tbody>
+					<tr>
+						<td>Pricing</td>
+						<td>£4.00</td>
+						<td>$37.44</td>
+						<td>$9.00</td>
+						<td>$20.00</td>
+						<td>$40.00</td>					
+					</tr>
+					<tr>
+						<td>RAM</td>
+						<td>4 GB</td>
+						<td>4 GB</td>
+						<td>6 GB</td>
+						<td>4 GB</td>
+						<td>4 GB</td>					
+					</tr>
+					<tr>
+						<td>CPU Cores</td>
+						<td>4</td>
+						<td>2</td>
+						<td>2</td>
+						<td>4</td>
+						<td>4</td>					
+					</tr>
+					<tr>
+						<td>Dedicated CPU?</td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>
+					</tr>
+					<tr>
+						<td>Disk Space</td>
+						<td>80 GB</td>
+						<td>0 GB </td>
+						<td>60 GB</td>
+						<td>96 GB</td>
+						<td>90 GB</td>
+					</tr>
+					<tr>
+						<td>SSD Storage?</td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>						
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+					</tr>
+					<tr>
+						<td>Bandwidth</td>
+						<td>Unmetered</td>
+						<td>0 GB </td>						
+						<td>100 GB</td>
+						<td>4 TB</td>
+						<td>4 TB</td>
+					</tr>
+					<tr>
+						<td>DDoS Protection?</td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>						
+						<td><span class="fas fa-check fa-lg"></span></td>
+						<td><span class="fas fa-times fa-lg"></span></td>
+						<td><span class="fas fa-check fa-lg"></span></td>
+					</tr>
+					<tr>
+						<td>Memory Type</td>
+						<td>DDR3/4</td>
+						<td>DDR3</td>
+						<td>DDR4</td>
+						<td>DDR3</td>
+						<td>DDR3</td>
+					</tr>				
+				</tbody>
+			</table>
+        </div>  
+    </div>
+
     <!-- Make a section about our pricing plans -->
     <div id="pricing" class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="row-title" id="server-plans-1" style="padding-top: 15px;">Our Server Plans</div>
+                    <div class="row-title" id="server-plans-1" style="padding-top: 60px;">Our Server Plans</div>
                     <div class="row-subtitle">Choose what's best for you.</div>
                 </div>
             </div>

@@ -66,6 +66,23 @@ rconfig.xml">
 
        =20
             </head>
+<style>
+    .image-logo {
+        width: 245px;
+    }
+    @media (max-width: 480px) {
+        #footer .email {
+            padding: 0px 0px 15px 0px;
+            margin-bottom: 5px;
+        }
+    }
+    @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+        .image-logo {
+            width: 200px;
+            padding-top: 10px;
+        }
+    }
+</style>
     <body class=3D"bg-neutral-800 darkmode" style=3D"/* background: transpa=
 rent url(https://i.imgur.com/KPKGQNK.png) repeat 0 0; */">
                                     <div id=3D"modal-portal"><div class=3D"=

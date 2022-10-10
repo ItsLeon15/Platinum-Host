@@ -20,13 +20,12 @@
                   <label>Your Email: <input type="email" name="email" /></label>
                 </p>
                 <p>
-                  <button type="submit" class="btn btn-danger">Unsubscribe</button>
+                  <button type="submit" onCLick=saveFunction() class="btn btn-danger">Unsubscribe</button>
                 </p>
             </form>
             <script>
-                var form = document.getElementById("form");
-                function handleForm(event) { event.preventDefault(); } 
-                document.querySelector('button').addEventListener('click', function() {
+              function saveFunction() {
+                
                     var email = document.querySelector('input[type="email"]').value;
                     const emailIsValid = (email) => {
                         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
@@ -38,10 +37,11 @@
                         div.innerHTML = 'You have been unsubscribed from our mailing list.';
                         document.querySelector('.unsubscribe-container').appendChild(div);
                     }
-                    if (document.querySelector('.alert-success')) {
-                        document.querySelector('form').remove();
-                    }
-                });
+                    //if (document.querySelector('.alert-success')) {
+                    //    document.querySelector('form').remove();
+                    //}
+                
+              }
             </script>
         </div>
       </div>

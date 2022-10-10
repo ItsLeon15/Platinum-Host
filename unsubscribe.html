@@ -12,7 +12,6 @@
  
     <div class="container">
       <div class="py-3 text-center">
-        <img class="d-block mx-auto mb-4" src="https://placeholdit.imgix.net/~text?txtsize=38&txt=lOGO&w=220&h=65" alt="" width="250">
         <div class="unsubscribe-container">
             <h2>Unsubscribe</h2>
             <p>Are you sure you want to unsubscribe from our mailing list?</p>
@@ -27,7 +26,6 @@
             <script>
                 var form = document.getElementById("form");
                 function handleForm(event) { event.preventDefault(); } 
-                form.addEventListener('submit', handleForm);
                 document.querySelector('button').addEventListener('click', function() {
                     var email = document.querySelector('input[type="email"]').value;
                     const emailIsValid = (email) => {

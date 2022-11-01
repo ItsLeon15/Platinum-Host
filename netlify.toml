@@ -2,27 +2,3 @@
   from = "/*"
   to = "/index.html"
   status = 404
-[[redirects]]
-  from = "https://www.platinumhost.uk/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301
-[[redirects]]
-  from = "https://platinumhost.uk/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301
-[[redirects]]
-  from = "https://www.platinumhost.host/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301
-[[redirects]]
-  from = "https://platinumhost.host/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301
-[[redirects]]
-  from = "https://www.platinumhost.xyz/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301
-[[redirects]]
-  from = "https://platinumhost.xyz/*"
-  to = "https://www.platinumhost.io/:splat"
-  status = 301

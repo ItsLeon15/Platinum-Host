@@ -1108,72 +1108,167 @@ svg.logo text {
     }
 }
 
-/* Media for iPhone XR */
-@media only screen and (max-width: 414px) {
+@media screen and (max-width: 1300px) {
     .container {
-        width: 310px !important;
+        width: 1200px;
     }
-    .image-logo {
-        padding-top: 15px !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 940px ;
     }
-    .row-subtitle-header:after {
-        left: 23% !important;
+    .pricing-box {
+        padding: 35px 30px 40px 30px ;
     }
     .location-map {
-        width: 100% !important;
+        width: 90% ;
     }
     #los-angeles-indicator {
-        left: 12.8% !important;
-        margin-top: 19.1% !important;
+        left: 14.9% ;
+        margin-top: 19.1% ;
     }
     #london-indicator {
-        left: 46.15% !important;
-        margin-top: 13.3% !important;
+        left: 47.25% ;
+        margin-top: 13.6% ;
     }
-    .row-server-plans {
-        margin-left: -40px !important;
+    .service-box .service-details p {
+        font-size: 13.5px ;
     }
-    /* Get style in container, row, col-xs12 */
-    .container .row .col-xs-12 {
+    .container .row .col-sm-12 #service-box-background-4 {
+        padding-bottom: 18px ;
+    }
+    .container .row .col-sm-12 p {
+        font-size: 13.46px ;
+    }
+    .image-logo {
+        width: 195px ;
+    }
+    .row-subtitle-header:after {
+        left: 17% ;
+    }
+    .header-graphic {
+        width: 492px !important;
+        height: 390px !important;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .container {
+        width: 784px ;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .container {
+        width: 713px ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 650px ;
+    }
+    /* Second pricing-box */
+    .pricing-box-second {
         width: 50% !important;
     }
 }
 
-/* Media for iPad Pro */
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 700px) {
     .container {
-        width: 932px !important;
-    }
-    .pricing-box {
-        padding: 35px 30px 40px 30px !important;
-    }
-    .location-map {
-        width: 90% !important;
-    }
-    #los-angeles-indicator {
-        left: 14.9% !important;
-        margin-top: 19.1% !important;
-    }
-    #london-indicator {
-        left: 47.25% !important;
-        margin-top: 13.6% !important;
-    }
-    .service-box .service-details p {
-        font-size: 13.5px !important;
-    }
-    .container .row .col-sm-12 #service-box-background-4 {
-        padding-bottom: 18px !important;
-    }
-    .container .row .col-sm-12 p {
-        font-size: 13.46px !important;
-    }
-    .image-logo {
-        width: 195px !important;
-    }
-    .row-subtitle-header:after {
-        left: 17% !important;
+        width: 600px ;
     }
 }
+
+@media screen and (max-width: 524px) {
+    .container {
+        width: 422px ;
+    }
+}
+
+/* Media for iPhone XR */
+@media screen and (max-width: 414px) {
+    .container {
+        width: 310px ;
+    }
+    .image-logo {
+        padding-top: 15px ;
+    }
+    .row-subtitle-header:after {
+        left: 23% ;
+    }
+    .location-map {
+        width: 100% ;
+    }
+    #los-angeles-indicator {
+        left: 12.8% ;
+        margin-top: 19.1% ;
+    }
+    #london-indicator {
+        left: 46.15% ;
+        margin-top: 13.3% ;
+    }
+    .row-server-plans {
+        margin-left: -40px ;
+    }
+    /* Get style in container, row, col-xs12 */
+    .container .row .col-xs-12 {
+        width: 50% ;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container {
+        width: 315px ;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 300px;
+    }
+    .pricing-box {
+        padding: 37px 35px 40px 45px !important;
+    }
+
+    /* Third pricing-box  */
+    .pricing-box:nth-child(3) {
+        padding: 37px 35px 40px 26px !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 280px ;
+    }
+    .image-logo {
+        width: 190px !important;
+    }
+    .slide {
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .container {
+        width: 200px;
+    }
+    .image-logo {
+        width: 150px;
+    }
+    .pricing-box {
+        padding: 37px 3px 40px 3px !important;
+    }
+    .pricing-box:nth-child(3) {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+
+/* Media for iPad Pro */
+
 #header-holder.main-header #top-content .noti-holder .noti {
     position: relative;
     display: inline-block;

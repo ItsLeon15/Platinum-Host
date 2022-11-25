@@ -1169,9 +1169,8 @@ svg.logo text {
     .container {
         width: 650px ;
     }
-    /* Second pricing-box */
-    .pricing-box-second {
-        width: 50% !important;
+    .server-plans {
+        flex-direction: column;
     }
 }
 
@@ -1216,11 +1215,35 @@ svg.logo text {
     .container .row .col-xs-12 {
         width: 50% ;
     }
+    .server-plans {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 390px) {
     .container {
         width: 315px ;
+    }
+    .server-plans {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
+    .pricing-box-second {
+        width: -webkit-fill-available !important;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+    .pricing-box-second {
+        width: max-content !important;
+    }
+}
+
+@media screen and (width: 768px) and (height: 1024px) {
+    .server-plans {
+        flex-direction: row !important;
     }
 }
 

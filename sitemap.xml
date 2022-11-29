@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://platinumhost.io</loc>
+    <loc>https://www.platinumhost.io</loc>
   </url>
   <url>
-    <loc>https://platinumhost.io/index.html</loc>
+    <loc>https://www.platinumhost.io/index.html</loc>
   </url>
   <url>
     <loc>https://www.platinumhost.io/discord.html</loc>
@@ -52,6 +52,6 @@
     <loc>https://www.platinumhost.io/privacy-policy.html</loc>
   </url>
   <url>
-    <loc>https://platinumhost.io/games.html</loc>
+    <loc>https://www.platinumhost.io/games.html</loc>
   </url>
 </urlset>

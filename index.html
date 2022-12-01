@@ -2,6 +2,100 @@
 <html lang="en">
 
 <head>
+	<script>
+		(function () {
+
+			var canvas, ctx;
+			var points = [];
+			var maxDist = 1000;
+		  
+			function init() {
+			  //Add on load scripts
+			  canvas = document.getElementById("snow");
+			  ctx = canvas.getContext("2d");
+			  resizeCanvas();
+			  pointFun();
+			  setInterval(pointFun, 20);
+			  window.addEventListener('resize', resizeCanvas, false);
+			}
+			//Particle constructor
+			function point() {
+			  this.x = Math.random() * (canvas.width + maxDist) - (maxDist / 2);
+			  this.y = Math.random() * (canvas.height + maxDist) - (maxDist / 2);
+			  this.z = (Math.random() * 0.5) + 0.5;
+			  this.vx = ((Math.random() * 2) - 0.5) * this.z;
+			  this.vy = ((Math.random() * 1.5) + 1.5) * this.z;
+			  this.fill = "rgba(255,255,255," + ((0.4 * Math.random()) + 0.5) + ")";
+			  this.dia = ((Math.random() * 2.5) + 1.5) * this.z;
+			  points.push(this);
+			}
+			//Point generator
+			function generatePoints(amount) {
+			  var temp;
+			  for (var i = 0; i < amount; i++) {
+				temp = new point();
+			  };
+			  // console.log(points);
+			}
+			//Point drawer
+			function draw(obj) {
+			  ctx.beginPath();
+			  ctx.strokeStyle = "transparent";
+			  ctx.fillStyle = obj.fill;
+			  ctx.arc(obj.x, obj.y, obj.dia, 0, 2 * Math.PI);
+			  ctx.closePath();
+			  ctx.stroke();
+			  ctx.fill();
+			}
+			//Updates point position values
+			function update(obj) {
+			  obj.x += obj.vx;
+			  obj.y += obj.vy;
+			  if (obj.x > canvas.width + (maxDist / 2)) {
+				obj.x = -(maxDist / 2);
+			  }
+			  else if (obj.xpos < -(maxDist / 2)) {
+				obj.x = canvas.width + (maxDist / 2);
+			  }
+			  if (obj.y > canvas.height + (maxDist / 2)) {
+				obj.y = -(maxDist / 2);
+			  }
+			  else if (obj.y < -(maxDist / 2)) {
+				obj.y = canvas.height + (maxDist / 2);
+			  }
+			}
+			//
+			function pointFun() {
+			  ctx.clearRect(0, 0, canvas.width, canvas.height);
+			  for (var i = 0; i < points.length; i++) {
+				draw(points[i]);
+				update(points[i]);
+			  };
+			}
+		  
+			function resizeCanvas() {
+			  canvas.width = window.innerWidth;
+			  canvas.height = window.innerHeight;
+			  points = [];
+			  generatePoints(window.innerWidth / 3);
+			  pointFun();
+			}
+		  	// document.addEventListener('DOMContentLoaded', init, false);
+			// Execute after the dom has loaded
+			window.onload = init;
+		  })();
+	</script>
+	<style>
+		.snow {
+			position: fixed;
+			top: 0;
+			left: 0;
+		  right: 0;
+		  bottom:0;
+			z-index: 2;
+			pointer-events: none;
+		}
+	</style>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 	<title>Platinum Host</title>
@@ -23,29 +117,14 @@
 	<link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5" />
 	<meta name="msapplication-TileColor" content="#00aba9" />
 	<meta name="theme-color" content="#ffffff" />
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-221086010-1"></script>
-	<!-- Google tag (gtag.js) -->
-	<script>
-		(function (w, d, t, r, u) {
-			var f, n, i;
-			(w[u] = w[u] || []),
-				(f = function () {
-					var o = { ti: "187003365" };
-					(o.q = w[u]), (w[u] = new UET(o)), w[u].push("pageLoad");
-				}),
-				(n = d.createElement(t)),
-				(n.src = r),
-				(n.async = 1),
-				(n.onload = n.onreadystatechange =
-					function () {
-						var s = this.readyState;
-						(s && s !== "loaded" && s !== "complete") ||
-							(f(), (n.onload = n.onreadystatechange = null));
-					}),
-				(i = d.getElementsByTagName(t)[0]),
-				i.parentNode.insertBefore(n, i);
-		})(window, document, "script", "//bat.bing.com/bat.js", "uetq");
-	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-995P0ZHMLL"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'G-995P0ZHMLL');
+		</script>
 	<link rel="manifest" href="manifest/site.webmanifest" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
@@ -254,6 +333,7 @@
 </head>
 
 <body>
+	<canvas class="snow" id="snow" width="1848" height="515"></canvas>
 	<!-- <div id="alert_area">
 		<div class="wrapper">
 			<p>10% OFF <span>First Invoice for any </span>VPS Servers!</p>
@@ -399,6 +479,14 @@
 												</li>
 											</ul>
 										</li>
+										<style>
+											.dropdown-menu {
+												margin-top: 10px !important;
+											}
+											.support-button {
+												padding-bottom: 5px !important;
+											}
+										</style>
 										<li class="dropdown unity-menu">
 											<a class="support-button">Servers <i class="fas fa-caret-down"></i></a>
 											<ul class="dropdown-menu">
@@ -438,9 +526,16 @@
 												</li>
 											</ul>
 										</li>
-
-										<li class="dropdown unity-menu support-button-holder support-dropdown">
-											<a class="support-button">Login <i class="fas fa-caret-down"></i></a>
+										<li class="support-button-holder" style="display: flex;">
+											<a class="dropdown unity-menu support-button support-dropdown" style="padding-bottom: 9px !important;">Login <i class="fas fa-caret-down"></i></a>
+											<img src="https://freepngimg.com/save/13150-icicles-transparent/900x476" style="
+											    width: 102px;
+											    position: absolute;
+											    margin-top: 43px;
+											    margin-left: 16px;
+												pointer-events:none;
+												z-index: -1;
+											">
 											<ul class="dropdown-menu">
 												<li>
 													<a href="https://clients.platinumhost.io"><i

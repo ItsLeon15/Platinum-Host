@@ -2,18 +2,100 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-	<title>Platinum Host - Acceptable Use Policy</title>
-	<meta name="description"
-		content="Welcome to Platinum Host. We are a cheap and fast Game Hosting company. With plans going from £1.00 per GB, we strive to become the best out there. With new games being added every week we have enough choice to choose from." />
-	<meta name="keywords"
-		content="Platinum, Host, Platinum Host, VPS, Game, Minecraft, Hosting, Cheap, Fast, Quick, United Kingdom, London, Ryzen, Platinum Host Ltd, Game Hosting, Game Servers, Minecraft Hosting, Minecraft Server Hosting, Minecraft Server Host, Cheapest Minecraft Hosting, Minecraft Server Free Trial, Dedicated Server, Dedicated Server Hosting, VPS Hosting, DDoS Protection" />
+	<script>
+		(function () {
 
-	<link href="assets/css/themify-icons.css" rel="stylesheet" />
-	<link href="assets/css/flag-icon.min.css" rel="stylesheet" />
-	<link href="assets/css/animate.min.css" rel="stylesheet" />
-	<link href="assets/css/app.css" rel="stylesheet" />
+			var canvas, ctx;
+			var points = [];
+			var maxDist = 1000;
+
+			function init() {
+				canvas = document.getElementById("snow");
+				ctx = canvas.getContext("2d");
+				resizeCanvas();
+				pointFun();
+				setInterval(pointFun, 20);
+				window.addEventListener('resize', resizeCanvas, false);
+			}
+			function point() {
+				this.x = Math.random() * (canvas.width + maxDist) - (maxDist / 2);
+				this.y = Math.random() * (canvas.height + maxDist) - (maxDist / 2);
+				this.z = (Math.random() * 0.5) + 0.5;
+				this.vx = ((Math.random() * 2) - 0.5) * this.z;
+				this.vy = ((Math.random() * 1.5) + 1.5) * this.z;
+				this.fill = "rgba(255,255,255," + ((0.4 * Math.random()) + 0.5) + ")";
+				this.dia = ((Math.random() * 2.5) + 1.5) * this.z;
+				points.push(this);
+			}
+			function generatePoints(amount) {
+				var temp;
+				for (var i = 0; i < amount; i++) {
+					temp = new point();
+				};
+			}
+			function draw(obj) {
+				ctx.beginPath();
+				ctx.strokeStyle = "transparent";
+				ctx.fillStyle = obj.fill;
+				ctx.arc(obj.x, obj.y, obj.dia, 0, 2 * Math.PI);
+				ctx.closePath();
+				ctx.stroke();
+				ctx.fill();
+			}
+			function update(obj) {
+				obj.x += obj.vx;
+				obj.y += obj.vy;
+				if (obj.x > canvas.width + (maxDist / 2)) {
+					obj.x = -(maxDist / 2);
+				}
+				else if (obj.xpos < -(maxDist / 2)) {
+					obj.x = canvas.width + (maxDist / 2);
+				}
+				if (obj.y > canvas.height + (maxDist / 2)) {
+					obj.y = -(maxDist / 2);
+				}
+				else if (obj.y < -(maxDist / 2)) {
+					obj.y = canvas.height + (maxDist / 2);
+				}
+			}
+			//
+			function pointFun() {
+				ctx.clearRect(0, 0, canvas.width, canvas.height);
+				for (var i = 0; i < points.length; i++) {
+					draw(points[i]);
+					update(points[i]);
+				};
+			}
+
+			function resizeCanvas() {
+				canvas.width = window.innerWidth;
+				canvas.height = window.innerHeight;
+				points = [];
+				generatePoints(window.innerWidth / 3);
+				pointFun();
+			}
+			window.onload = init;
+		})();
+	</script>
+	<style>
+		.snow {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			z-index: 2;
+			pointer-events: none;
+		}
+	</style>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+	<title>Platinum Host - Acceptable Use Policy</title>
+	<meta name="description" content="Welcome to Platinum Host. We are a cheap and fast Game Hosting company. With plans going from £1.00 per GB, we strive to become the best out there. 
+    With new games being added every week we have enough choice to choose from." />
+	<meta name="keywords" content="Platinum, Host, Platinum Host, VPS, Game, Minecraft, Hosting, Cheap, Fast, Quick, United Kingdom, London, 
+    Ryzen, Platinum Host Ltd, Game Hosting, Game Servers, Minecraft Hosting, Minecraft Server Hosting, Minecraft Server Host, Cheapest Minecraft Hosting, 
+    Minecraft Server Free Trial, Dedicated Server, Dedicated Server Hosting, VPS Hosting, DDoS Protection" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-slider.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css" />
@@ -28,38 +110,7 @@
 	<meta name="msapplication-TileColor" content="#00aba9" />
 	<meta name="theme-color" content="#ffffff" />
 	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-995P0ZHMLL"></script>
-	<style>
-		body, #services, #pricing, #more-features {
-			background: #0f0c29;
-			background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-			background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
-		}
-		.container {
-			color: white;
-		}
-	</style>
-	<script>
-		(function (w, d, t, r, u) {
-			var f, n, i;
-			(w[u] = w[u] || []),
-				(f = function () {
-					var o = { ti: "187003365" };
-					(o.q = w[u]), (w[u] = new UET(o)), w[u].push("pageLoad");
-				}),
-				(n = d.createElement(t)),
-				(n.src = r),
-				(n.async = 1),
-				(n.onload = n.onreadystatechange =
-					function () {
-						var s = this.readyState;
-						(s && s !== "loaded" && s !== "complete") ||
-							(f(), (n.onload = n.onreadystatechange = null));
-					}),
-				(i = d.getElementsByTagName(t)[0]),
-				i.parentNode.insertBefore(n, i);
-		})(window, document, "script", "//bat.bing.com/bat.js", "uetq");
-	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LM7EFWXTSB"></script>
 
 	<link rel="manifest" href="manifest/site.webmanifest" />
 
@@ -86,7 +137,7 @@
 		}
 		gtag("js", new Date());
 
-		gtag("config", "G-995P0ZHMLL");
+		gtag("config", "G-LM7EFWXTSB");
 	</script>
 </head>
 <style>
@@ -110,6 +161,45 @@
 </style>
 
 <body>
+	<style>
+		body,
+		#services,
+		#pricing,
+		#more-features {
+			background: #0f0c29;
+			/* fallback for old browsers */
+			background: -webkit-linear-gradient(to right,
+					#24243e,
+					#302b63,
+					#0f0c29);
+			/* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right,
+					#24243e,
+					#302b63,
+					#0f0c29);
+			/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+		}
+
+		.pricing-box .pricing-list li {
+			color: #fff;
+		}
+
+		.pricing-box {
+			color: #fff;
+		}
+
+		.row-title {
+			color: white;
+		}
+
+		.row-subtitle,
+		p,
+		* {
+			color: #ffffff;
+		}
+	</style>
+	<canvas class="snow" id="snow" width="1848" height="515"></canvas>
 	<div id="header-holder" class="main-header">
 		<section id="home" class="home" style="padding-bottom: 20px">
 			<nav id="nav" class="navbar navbar-default navbar-full">
@@ -120,6 +210,7 @@
 								<div class="navbar-header">
 									<button aria-expanded="false" type="button" title="Dropdown Menu"
 										class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs">
+										<span class="sr-only">Toggle navigation</span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
@@ -139,7 +230,6 @@
 										<li>
 											<a href="https://www.platinumhost.io/versions">Minecraft Versions</a>
 										</li>
-
 										<li class="dropdown unity-menu">
 											<a class="support-button">Games <i class="fas fa-caret-down"></i></a>
 
@@ -242,13 +332,71 @@
 												</li>
 											</ul>
 										</li>
+										<style>
+											.dropdown-menu {
+												margin-top: 10px !important;
+											}
+
+											.support-button {
+												padding-bottom: 5px !important;
+											}
+
+											.christmas-button {
+												padding-bottom: 9px !important;
+												margin-left: 0 !important;
+												display: inline-block !important;
+												-webkit-box-sizing: border-box !important;
+												-moz-box-sizing: border-box !important;
+												box-sizing: border-box !important;
+												min-width: 100px !important;
+												text-decoration: none !important;
+												color: #FFF !important;
+												text-shadow: 0 1px 2px rgb(0 0 0 / 75%) !important;
+												background: #302b63 !important;
+												outline: none !important;
+												border-radius: 15px !important;
+												box-shadow: inset 1px 1px 55px rgba(33, 150, 243, 1),
+													/* highlight */
+													inset 0 0 6px #a23227,
+													/* inner glow */
+													inset 0 80px 80px -40px #2196F3,
+													/* gradient */
+													1px 1px 3px rgba(0, 0, 0, 0.75) !important;
+												position: relative !important;
+												overflow: visible !important;
+												-webkit-transition: 500ms linear !important;
+												-moz-transition: 500ms linear !important;
+												-o-transition: 500ms linear !important;
+												transition: 500ms linear !important;
+											}
+
+											a.dropdown.unity-menu.support-button.support-dropdown::before {
+												content: '';
+												display: block;
+												position: absolute;
+												top: -7px;
+												left: -2px;
+												right: 0;
+												height: 22px;
+												background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAXCAYAAACS5bYWAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABFpJREFUeNrUV0tIo1cUvpkYjQ4xxSA6DxuNqG0dtaUKOgs3s6i0dFd3pSsXdjeIixakiGA34sZuXCkoONLFwJTK4GMYLYXg29gatTpiXurkbd7vv9/5ub+IxuhA7eiFQ5Kbc8/57ne/e87/ywRBYLdl3GG3aNwqsLJ0k0tLS+fmcnNzWUVFBVMoFGx2djarvLxcm5OTw+bm5iytra2xc4ExNjY27iqVyvvwK6CpeDzuCYVC1urq6qDA9UcfPp+PHR4esmAwKK6tr68/l5/8rgQ2Ozub1dbWyiYmJooaGxt/VqvV38jlchX9l0qlwoFA4DWS/RKLxRxFRUVf5+XlPcaaT2AP0sVPJBL2SCRiAPBpu93+vKamZo/Ae71eZjabWV1dXVqw7CKwp43ksrCw8Bhg7MJ/PLDZ5PHx8cz29vYT5JGD/bSYLgTrcDgYdk6siSc6NjZWDaAe4ZoHQL+cmZnRpZPnhWDpD8kw7uKo9ML/NMCsd2tr61vkzboMrEyv138M7TyLRqMWMBsX3sMgaZhMpp+AR5EJrCocDpuEGzKg4x8khs+CVWxubvZfR9JkMik4nU7BarUKLpeLmLsKuwIqTLynp4fqmIzASrqQT09Pf1VVVfX0KsWZ6uHBwQHTaDSsoKAgo6/H4xHLEcrVyRwuEisrKzs5XrrIVAVwiUVDKRRrL+YI32ewdVhMApuHWvcj6vids6J2u90MF4yBHUZNgKoEBaRBQalJqFSqtJfUYrGIlQX+ydXVVTN+u0tKSjQNDQ1axJVl2iTypebn55d7e3v/kqoDgZU1NTU9LCws/Py0M+2ekuGincxJ3yF+18jIyHJLS0slQJUWFxczrBeBE0vE5tHRkbixlZWVfSR8gTX/0P5gH7S1tX3Z3t7+BW8qAvwSfr8/jA0EIRM/qoFtampqbW9vTw+XA+ojUruVd3Z2tvb19T2TQFEim81GgVJoCvvj4+NLOJZgaWmpemdn5y3a6BbcnJDAw8HBwac6ne6eqCW5XDwB3qVSqM9/DAwMUNy/eVLabT7sI25qwgujThCBhWE+mAt2yNc4SQKSZrOQQE1HS22VJkmPAGTr7+//fX19fRk+Zgq0trbGeFAKEAQT98BSqKOj47vm5uaa/Px8JeIk4GcaHh6eWlxcfAU/A8xG67BxAX3fwdcbYUpSDJ06Z49Ak8ZC3OL8f3YiA4PBYKdLQ2AJ9OTk5GpXV9cQiCVh79M94QtlPLDUE/1gPNrd3f0W33W4cBoco48zQuy/IZYAMnGqlSc4c66L9JruQUaSARXeT8HGKzxAqFBekni6+h46+pMzGiJGMgTOJh1yU/KNEGDvZWvfBawkA9ppwGg0mrRa7SOI2g+gxOgbJIpdFpj72PnxSnPX8vqRxTURgBQWKisrH+GThOm+CtAzoK/9/Uiqq/6hoaHfdnd3jaOjo7/yY7yxbwqkWy3sQzpS2C6YirwvUJk0y7hurfyGRrnduPGvAAMASmo8wzeVwfsAAAAASUVORK5CYII=) no-repeat 0 0, url(data:image/png;base64,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) no-repeat 50% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAXCAYAAACFxybfAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAodJREFUeNrsVb1rWlEUv2pN/GqspKRSKFYXWzEloIWif0Fn6dJChQ7OQil0qd3EzcEpg0OgdHDr4CQODk7VRlLMEIVqApX4We0zflR9/Z1Ui4T34ksaaAYP/Hzc673n/M6550PG8zz73yKjn0wm83fDYDAwo9HINBrNnwOQg4MDs0ql2lQqlfdAWont7ng8Pjw+Ps44nc4G1pI9EXWaSOzt7TGO42aH5Pv7+08ajUZ0MBiUeXEZd7vdL5VK5fX29rZ+5tQiEmdxKrlcjsEYczgcynK5/BKKv/IXFNz/XiqVXkHdjUuRIA9SqdRD8or/R8Ez9fr9fqHVakUR4c2z0REjIQuHw2ZcrPBXLCA0RHTezEdHjIQqkUhEr9I4HOILhQLf6/VoOUFEvDMiQiToDx1Cdz+bzZ6bUFarlel0OkkVUK/XWbvdPoVer5fh3ntsfwJ+CJ2XA4p0Op1bpBgJyxDehQQ6nQ5DZXHBYDBZq9V+EhFUndnr9drEqoc2bwJbwGPgtohuVSwWe2Gz2TZMJpNgRKi6qtUqg2EWj8dTgUDgo0KhWPN4PC70EvXOzs67fD6/S6kiRIKeZA1YJ2MiJNbdbvfTUCjkV6vVK2hcDF8GI2w0GrGTkxM2HA5PDxaLxSOfz/cWEfk81X0XIMMFgJJ/srBjCgk8IdcfuVyuZ36//7nFYtkQyAMumUzuRiKRD0jMFLa+AZOpYwqgB/ziBVqmVBKUO7eAB/R0WG/Z7XaTVqtdbTabHJL6EK2djBaBPHA0NSqpbUsiMUeEBgpF4Q5AbZrmSJ/yEWgBTaBNHl9kdkgmMUeG7qwAq9PqovceTA3zlxlgsuswyuXsGsiSxJLEkoSY/BZgAEjRodi+uBruAAAAAElFTkSuQmCC) no-repeat 100% 0;
+											}
+
+											.christmas-subtitle {
+												padding-top: 70px !important;
+												font-weight: 700 !important;
+												font-size: 30px !important;
+												color: white !important;
+												margin-bottom: 8px !important;
+											}
+
+											.christmas-image-1 {
+												height: 91.2px !important;
+												transform: rotate(4.7deg) !important;
+											}
+										</style>
 										<li class="dropdown unity-menu">
 											<a class="support-button">Servers <i class="fas fa-caret-down"></i></a>
 											<ul class="dropdown-menu">
-												<li>
-													<a href="https://clients.platinumhost.io/index.php?rp=/store/vpn"><i
-															class="fas fa-wifi"></i> VPN</a>
-												</li>
 												<li>
 													<a href="https://www.platinumhost.io/vps"><i
 															class="fas fa-server"></i>
@@ -266,7 +414,7 @@
 											</ul>
 										</li>
 
-										<li class="dropdown unity-menu">
+										<li class="dropdown unity-menu" style="margin-right: 9px;">
 											<a class="support-button">Support <i class="fas fa-caret-down"></i></a>
 											<ul class="dropdown-menu">
 												<li>
@@ -285,9 +433,13 @@
 												</li>
 											</ul>
 										</li>
-
-										<li class="dropdown unity-menu support-button-holder support-dropdown">
-											<a class="support-button">Login <i class="fas fa-caret-down"></i></a>
+										<li class="support-button-holder" style="display: flex;">
+											<a class="dropdown unity-menu support-button support-dropdown christmas-button"
+												style="padding-bottom: 9px !important; margin-left: 0 !important;">Login
+												<i class="fas fa-caret-down"></i></a>
+											<img src="https://freepngimg.com/save/13150-icicles-transparent/900x476"
+												alt="ice" style="width: 98%; height: 100%; position: absolute; margin-top: 41px; margin-left: 4px; padding-right: 4px; pointer-events: none; z-index: -1;
+											">
 											<ul class="dropdown-menu">
 												<li>
 													<a href="https://clients.platinumhost.io"><i

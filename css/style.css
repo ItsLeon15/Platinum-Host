@@ -3976,9 +3976,12 @@ svg.logo text {
 
 #footer {
     background-color: #0d1e30;
-    padding-top: 90px;
-    padding-bottom: 30px;
+    position: absolute;
     text-align: center;
+    padding-bottom: 43px;
+    padding-top: 43px;
+    margin-top: 70px;
+    z-index: 2;
 }
 
 #footer .footer-menu-holder {
@@ -7167,6 +7170,8 @@ a.text-dark:focus {
     display: block;
     height: 10%;
     margin-bottom: auto;
+    z-index: 2;
+    position: relative;
 }
 
 .pricing-box .pricing-list {

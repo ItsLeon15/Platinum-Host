@@ -179,24 +179,24 @@
 		#london-indicator {
 			left: 48.15%;
 			margin-top: 9.3%;
-			position: absolute;
 		}
 
 		#los-angeles-indicator {
 			left: 26.8%;
 			margin-top: 13.1%;
 			position: absolute;
+			z-index: 3;
 		}
 
 		.location-indicator {
 			content: " ";
 			width: 12px;
 			height: 12px;
-			position: relative;
+			position: absolute;
+			z-index: 3;
 			background-color: #fd2f42;
 			box-shadow: 0 0 0 5px rgb(253 47 66 / 32%);
 			border-radius: 100px;
-			position: relative;
 		}
 
 		@media (max-width: 480px) {

@@ -1425,6 +1425,8 @@ svg.logo text {
 #header-holder.main-header .header-graphic {
     width: 100%;
     opacity: 1;
+    position: inherit;
+    z-index: 2;
 }
 
 @keyframes slide-fade1 {

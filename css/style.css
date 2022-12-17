@@ -7170,6 +7170,7 @@ a.text-dark:focus {
 
 .location-map {
     width: 60%;
+    pointer-events: none;
     margin-left: auto;
     margin-right: auto;
     display: block;

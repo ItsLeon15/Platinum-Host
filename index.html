@@ -106,6 +106,8 @@
 	<link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png" />
 	<link rel="icon" type="image/png" sizes="32x32" href="images/icon/favicon-32x32.png" />
 	<link rel="icon" type="image/png" sizes="16x16" href="images/icon/favicon-16x16.png" />
+	<!-- Import jqeury -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<link rel="mask-icon" href="images/icon/safari-pinned-tab.svg" color="#5bbad5" />
 	<meta name="msapplication-TileColor" content="#00aba9" />
 	<meta name="theme-color" content="#ffffff" />
@@ -197,6 +199,26 @@
 			background-color: #fd2f42;
 			box-shadow: 0 0 0 5px rgb(253 47 66 / 32%);
 			border-radius: 100px;
+		}
+
+		.location-indicator-text {
+			margin: -31px 0 0 -3rem;
+			width: 7.4rem;
+			background-color: #5a5a5a;
+			border-radius: 10px;
+			color: white;
+			height: 2.3rem;
+			font-size: revert;
+		}
+
+		.los-location-indicator-text {
+			margin: -31px 0 0 -4rem;
+			width: 10rem;
+			background-color: #5a5a5a;
+			border-radius: 10px;
+			color: white;
+			height: 2.3rem;
+			font-size: revert;
 		}
 
 		@media (max-width: 480px) {
@@ -824,17 +846,25 @@
 				</div>
 			</div>
 		</div>
-		<ul style="text-align: left; margin-left: 10px;	">
-			<li style="font-size: 18px">London, United Kingdom</li>
-			<li style="font-size: 18px">Los Angeles, United States</li>
-		</ul>
-		<br><br>
 		<div class="container-lg animate__animated animate__fadeIn" data-aos="fade-up">
 			<div id="london-indicator" class="location-indicator"></div>
 			<div id="los-angeles-indicator" class="location-indicator"></div>
 			<img src="images/map.png" alt="Locations Map" class="location-map" draggable="false" />
 		</div>
 	</div>
+	<script>
+		$("#london-indicator").hover(function () {
+			$("#london-indicator").append("<div class='location-indicator-text'>London</div>");
+		}, function () {
+			$(".location-indicator-text").remove();
+		});
+		$("#los-angeles-indicator").hover(function () {
+			$("#los-angeles-indicator").append("<div class='los-location-indicator-text'>Los Angeles</div>");
+		}, function () {
+			$(".los-location-indicator-text").remove();
+		});
+
+	</script>
 
 	<div class="section" id="testimonials">
 		<div class="container">
